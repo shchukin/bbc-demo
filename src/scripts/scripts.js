@@ -45,5 +45,9 @@
     });
 
 
+    $('.remove-cut').on('click', function(e) {
+        $('.carousel').toggleClass('carousel--remove-cut');
+    })
+
 
 })(jQuery);
