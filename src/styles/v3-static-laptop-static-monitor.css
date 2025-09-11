@@ -1,9 +1,9 @@
-@media (1600px <= width) {
+@media (1850px <= width) {
     .cut-carousel-demo-only {
         zoom: 1.25;
     }
-}
 
-.stage {
-    min-height: 80svh;
+    .stage {
+        min-height: 80svh;
+    }
 }

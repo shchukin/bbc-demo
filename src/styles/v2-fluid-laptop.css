@@ -1,0 +1,5 @@
+.container {
+    width: 100%;
+    min-width: calc(1120px + 2 * var(--container-padding));
+    max-width: calc(1920px + 2 * var(--container-padding));
+}
