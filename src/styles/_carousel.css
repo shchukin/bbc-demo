@@ -153,22 +153,6 @@
 }
 
 
-@media (1850px <= width) {
-
-    .carousel--css-default-arrow {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-        .carousel--css-default-arrow .carousel__button--prev {
-            left: -74px;
-        }
-
-        .carousel--css-default-arrow .carousel__button--next {
-            right: -74px;
-        }
-}
-
-
 @media (width < 740px) {
 
     .carousel--css-default-arrow {
@@ -257,51 +241,6 @@
     }
 
 
-
-    @media (1850px <= width) {
-
-        .carousel--css-skin-full-portfolio .carousel {
-
-        }
-            .carousel--css-skin-full-portfolio .carousel__widget {
-
-            }
-                .carousel--css-skin-full-portfolio .carousel__widget .swiper {
-
-                }
-                    .carousel--css-skin-full-portfolio .carousel__widget .swiper-wrapper {
-                        grid-template-columns: repeat(6, 176px); /* Default to 3 items per row */
-                        gap: 0 14px;
-                        padding-top: 93px;
-                    }
-                        .carousel--css-skin-full-portfolio .swiper-slide {
-                            margin-top: -93px !important;
-                        }
-                            .carousel--css-skin-full-portfolio .swiper-slide:nth-child(5n+4)::before,
-                            .carousel--css-skin-full-portfolio .swiper-slide:nth-child(5n+5)::before {
-                                width: 360px;
-                                height: 422px;
-                                background-image: url("../vectors/construction-monitor-frame.svg");
-                            }
-
-                        .carousel--css-skin-full-portfolio .swiper-slide:nth-child(5n+4) {
-
-                        }
-                            .carousel--css-skin-full-portfolio .swiper-slide:nth-child(5n+4)::before {
-                                right: 380px;
-                            }
-
-                        .carousel--css-skin-full-portfolio .swiper-slide:nth-child(5n+5) {
-
-                        }
-                            .carousel--css-skin-full-portfolio .swiper-slide:nth-child(5n+5)::before {
-                                left: 380px;
-                            }
-
-        .carousel--css-skin-full-portfolio .carousel__pagination {
-
-        }
-    }
 }
 
 @media (width < 740px) {
@@ -399,57 +338,6 @@
 
 
 
-    @media (1850px <= width) {
-
-        .carousel--css-skin-short-portfolio .carousel {
-
-        }
-            .carousel--css-skin-short-portfolio .carousel__widget {
-
-            }
-                .carousel--css-skin-short-portfolio .carousel__widget .swiper {
-
-                }
-                    .carousel--css-skin-short-portfolio .carousel__widget .swiper-wrapper {
-                        height: 600px !important;
-                    }
-                        .carousel--css-skin-short-portfolio .swiper-slide {
-
-                        }
-
-                        .carousel--css-skin-short-portfolio .swiper-slide--01 {
-                            left: 142px;
-                            /*top: 0;*/
-                        }
-
-                        .carousel--css-skin-short-portfolio .swiper-slide--02 {
-                            left: 406px;
-                            top: 152px;
-                        }
-
-                        .carousel--css-skin-short-portfolio .swiper-slide--03 {
-                            left: 669px;
-                        }
-
-                        .carousel--css-skin-short-portfolio .swiper-slide--04 {
-                            left: 669px;
-                            top: 305px;
-                        }
-
-                        .carousel--css-skin-short-portfolio .swiper-slide--05 {
-                            left: 932px;
-                            top: 152px;
-                        }
-
-                        .carousel--css-skin-short-portfolio .swiper-slide--06 {
-                            left: 1196px;
-                        }
-
-                        .carousel--css-skin-short-portfolio .swiper-slide--07 {
-                            left: 142px;
-                            top: 305px;
-                        }
-    }
 }
 
 
@@ -670,14 +558,6 @@
                     gap: 14px;
                 }
 
-                @media (1850px <= width) {
-                    .carousel--css-skin-certificates .swiper-wrapper {
-                        gap: 20px;
-                    }
-                }
-                    .carousel--css-skin-certificates .swiper-slide {
-
-                    }
 }
 
 
@@ -730,26 +610,6 @@
 
                     }
 
-
-    @media (1850px <= width) {
-
-        .carousel--css-skin-solutions-modules {
-
-        }
-            .carousel--css-skin-solutions-modules .carousel__widget {
-
-            }
-                .carousel--css-skin-solutions-modules .swiper {
-
-                }
-                    .carousel--css-skin-solutions-modules .swiper-wrapper {
-                        grid-template-columns: repeat(2, 394px);
-                        gap: 0 68px;
-                    }
-                        .carousel--css-skin-solutions-modules .swiper-slide {
-
-                        }
-    }
 }
 
 

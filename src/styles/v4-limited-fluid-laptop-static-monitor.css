@@ -2,19 +2,20 @@
 
     .container {
         width: 100%;
-        box-sizing: content-box;
-        min-width: 1200px;
-        max-width: 1400px;
     }
 }
 
 
 @media (1850px <= width) {
+    .container {
+        width: 100%;
+    }
+
     .cut-carousel-demo-only {
-        zoom: 1.25;
+        zoom: 1.33;
     }
 
     .stage {
-        min-height: 80svh;
+        min-height: 75svh;
     }
 }
