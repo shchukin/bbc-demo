@@ -1,0 +1,11 @@
+.our-courses {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+    border-radius: 72px;
+}
+    .our-courses__body {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+    }

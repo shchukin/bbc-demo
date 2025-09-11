@@ -1,0 +1,46 @@
+.block {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    aspect-ratio: 368/400;
+    background-color: #D9D9D9;
+}
+    .block__illustration {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        vertical-align: top;
+    }
+
+    .block__body {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: 16px solid transparent;
+    }
+        .block__tags {
+            background-image: url("../temp/block-tags.png");
+            background-size: contain;
+            width: 200px;
+            height: 32px;
+        }
+
+        .block__heading {
+            margin-top: 8px;
+            font-size: 28px;
+            line-height: 28px;
+            color: #1A1A1A;
+        }
+
+        .block__tags2 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-image: url("../temp/block-tags2.png");
+            background-size: contain;
+            width: 247px;
+            height: 100px;
+        }
