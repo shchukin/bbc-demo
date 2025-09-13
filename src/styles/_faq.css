@@ -1,0 +1,27 @@
+.faq {
+
+}
+    .faq__wrap {
+        background-color: #FFFFFF;
+        border-radius: 32px;
+    }
+        .faq__item {
+            padding: 32px 80px;
+            border-top: 2px solid #F5F5F7;
+        }
+
+        .faq__item:first-child {
+            border-top: none;
+        }
+            .faq__question {
+                font-size: 24px;
+                line-height: 24px;
+                color: #000000;
+            }
+
+            .faq__answer {
+                margin-top: 24px;
+                font-size: 20px;
+                line-height: 24px;
+                color: #666666;
+            }
