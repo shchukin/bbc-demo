@@ -1,6 +1,6 @@
 .select-course {
     padding-top: 140px;
-    padding-bottom: 140px;
+    padding-bottom: 118px;
 }
     .select-course__body {
         display: grid;
@@ -8,16 +8,21 @@
         gap: 8px;
     }
         .select-course__column {
-            padding: 72px 24px 42px;
+            padding: 72px 24px 26px;
             background-color: #D9D9D9;
             border-radius: 24px;
         }
             .select-course__item {
                 height: 80px;
+                padding-top: 8px;
                 margin-bottom: 16px;
+                font-size: 18px;
+                line-height: 18px;
+                letter-spacing: -0.4px;
             }
                 .select-course__item::before {
                     content: "";
+                    margin-top: -8px;
                     display: inline-block;
                     vertical-align: top;
                     width: 80px;

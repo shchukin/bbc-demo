@@ -2,11 +2,14 @@
 
 }
     .faq__wrap {
+        margin-top: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         background-color: #FFFFFF;
         border-radius: 32px;
     }
         .faq__item {
-            padding: 32px 80px;
+            padding: 34px 80px;
             border-top: 2px solid #F5F5F7;
         }
 
@@ -14,14 +17,16 @@
             border-top: none;
         }
             .faq__question {
-                font-size: 24px;
-                line-height: 24px;
+                font-size: 22px;
+                line-height: 22px;
+                letter-spacing: -0.4px;
                 color: #000000;
             }
 
             .faq__answer {
-                margin-top: 24px;
-                font-size: 20px;
-                line-height: 24px;
+                margin-top: 28px;
+                font-size: 22px;
+                line-height: 26px;
+                letter-spacing: -0.4px;
                 color: #666666;
             }
