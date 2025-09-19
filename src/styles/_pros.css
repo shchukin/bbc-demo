@@ -2,3 +2,47 @@
     padding-top: 142px;
     padding-bottom: 144px;
 }
+    .pros__body {
+        margin-top: 16px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+    }
+        .pros__item {
+
+        }
+            .pros__preview {
+
+            }
+                .pros__image {
+                    width: 100%;
+                    vertical-align: top;
+                    border-radius: 32px;
+                }
+
+            .pros__tile-body {
+                padding-left: 16px;
+            }
+                .pros__index {
+                    margin-top: 32px;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: #808080;
+                    letter-spacing: 0.5px;
+                }
+
+                .pros__heading {
+                    margin-top: 8px;
+                    font-size: 28px;
+                    line-height: 32px;
+                    color: #1A1A1A;
+                    letter-spacing: -0.5px;
+                }
+
+                .pros__note {
+                    margin-top: 16px;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #999999;
+                    letter-spacing: -0.3px;
+                }
