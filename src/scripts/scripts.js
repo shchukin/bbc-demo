@@ -61,22 +61,18 @@
                     nextEl: $carousel.querySelector('.carousel__button--next'),
                     disabledClass: 'carousel__button--disabled',
                 },
-                // breakpoints: {
-                //     400: {
-                //         slidesPerView: 2,
-                //         slidesPerGroup: 2,
-                //     },
-                //     740: {
-                //         slidesPerView: 3,
-                //         slidesPerGroup: 3,
-                //         spaceBetween: 54,
-                //     },
-                //     1850: {
-                //         slidesPerView: 5,
-                //         slidesPerGroup: 5,
-                //         spaceBetween: 84,
-                //     }
-                // },
+            });
+        }
+
+        if( $carousel.classList.contains('carousel--js-feedback') ) {
+            const feedbackWwiper = new Swiper($carousel.querySelector('.swiper'), {
+                slidesPerView: 4,
+                slidesPerGroup: 4,
+                initialSlide: 8,
+                loop: true,
+                spaceBetween: 8,
+                autoHeight: true,
+                speed: 600,
             });
         }
 

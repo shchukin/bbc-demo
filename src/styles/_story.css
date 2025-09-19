@@ -1,0 +1,15 @@
+.story {
+    display: block;
+}
+    .story__image {
+        width: 100%;
+        height: auto;
+        vertical-align: top;
+        background-color: var(--image-fallback);
+        border-radius: 16px;
+    }
+
+
+.swiper-slide:nth-child(even) .story {
+    padding-top: 24px;
+}
