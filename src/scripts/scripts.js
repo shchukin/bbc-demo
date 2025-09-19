@@ -45,7 +45,6 @@
         if( $carousel.classList.contains('carousel--js-init-companies') ) {
             new Swiper($carousel.querySelector('.swiper'), {
                 slidesPerView: "auto",
-                centeredSlides: true,
                 slidesPerGroup: 6,
                 initialSlide: 6,
                 loop: true,
