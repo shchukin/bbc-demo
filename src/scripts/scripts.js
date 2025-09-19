@@ -68,11 +68,21 @@
             new Swiper($carousel.querySelector('.swiper'), {
                 slidesPerView: 4,
                 slidesPerGroup: 4,
-                initialSlide: 8,
-                loop: true,
                 spaceBetween: 8,
                 autoHeight: true,
                 speed: 600,
+                pagination: {
+                    el: $carousel.querySelector('.carousel__pagination'),
+                    type: "fraction", /* можно переделать на bullets или сделать всю секцию false */
+                    bulletClass: 'carousel__bullet',
+                    bulletActiveClass: 'carousel__bullet--current',
+                    clickable: true
+                },
+                navigation: {
+                    prevEl: $carousel.querySelector('.carousel__button--prev'),
+                    nextEl: $carousel.querySelector('.carousel__button--next'),
+                    disabledClass: 'carousel__button--disabled',
+                },
             });
         }
 
@@ -83,6 +93,18 @@
                 spaceBetween: 8,
                 autoHeight: true,
                 speed: 600,
+                pagination: {
+                    el: $carousel.querySelector('.carousel__pagination'),
+                    type: "fraction", /* можно переделать на bullets или сделать всю секцию false */
+                    bulletClass: 'carousel__bullet',
+                    bulletActiveClass: 'carousel__bullet--current',
+                    clickable: true
+                },
+                navigation: {
+                    prevEl: $carousel.querySelector('.carousel__button--prev'),
+                    nextEl: $carousel.querySelector('.carousel__button--next'),
+                    disabledClass: 'carousel__button--disabled',
+                },
             });
         }
 
