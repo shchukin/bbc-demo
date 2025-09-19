@@ -112,6 +112,21 @@
                     gap: 4px;
                 }
 
+                .select-course__submit {
+                    margin-top: 16px;
+                }
+                    .select-course__submit .button {
+                        width: 100%;
+                    }
+
+                .select-course__note {
+                    margin-top: 8px;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #666666;
+                    text-align: center;
+                }
+
             .select-course__input {
                 height: 56px;
                 margin-bottom: 8px;

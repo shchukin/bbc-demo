@@ -46,6 +46,12 @@
     color: #000000;
 }
 
+.button--yellow,
+.button--yellow:hover {
+    background-color: #FFCC6B;
+    color: #000000;
+}
+
 
 .button--smaller {
     padding: 16px 24px;
