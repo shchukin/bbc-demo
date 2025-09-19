@@ -510,6 +510,44 @@
 .carousel--css-skin-companies {
 
 }
+    .carousel--css-skin-companies .swiper-slide {
+        width: 178px !important;
+    }
+        .carousel--css-skin-companies .carousel__button--prev {
+            left: auto;
+            right: 50%;
+            margin-right: calc(var(--container-width) / 2);
+        }
+
+        .carousel--css-skin-companies .carousel__button--next {
+            right: auto;
+            left: 50%;
+            margin-left: calc(var(--container-width) / 2);
+        }
+
+    .carousel--css-skin-companies::before,
+    .carousel--css-skin-companies::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 100;
+        width: 1000px;
+        pointer-events: none;
+    }
+
+    .carousel--css-skin-companies::before {
+        right: 50%;
+        margin-right: calc(var(--container-width) / 2);
+        background-image: linear-gradient(to right, #F5F5F7, #F5F5F7 900px, transparent);
+    }
+
+    .carousel--css-skin-companies::after {
+        left: 50%;
+        margin-left: calc(var(--container-width) / 2);
+        background-image: linear-gradient(to left, #F5F5F7, #F5F5F7 900px, transparent);
+    }
+
 
 @media (width < 740px) {
 
