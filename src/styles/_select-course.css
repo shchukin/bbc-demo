@@ -105,6 +105,13 @@
                     color: #666666;
                 }
 
+                .select-course__checks {
+                    margin-top: 8px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                }
+
             .select-course__input {
                 height: 56px;
                 margin-bottom: 8px;
