@@ -42,7 +42,7 @@
             });
         }
 
-        if( $carousel.classList.contains('carousel--js-init-works') ) {
+        if( $carousel.classList.contains('carousel--js-init-companies') ) {
             new Swiper($carousel.querySelector('.swiper'), {
                 slidesPerView: 6,
                 slidesPerGroup: 6,
