@@ -21,7 +21,7 @@
         height: 100%;
         border: 16px solid transparent;
     }
-        .block__tags {
+        .block__summary {
             background-image: url("../temp/block-tags.png");
             background-size: contain;
             width: 200px;
@@ -36,12 +36,25 @@
             color: #1A1A1A;
         }
 
-        .block__tags2 {
+        .block__tags {
             position: absolute;
             left: 0;
             bottom: 0;
-            background-image: url("../temp/block-tags2.png");
-            background-size: contain;
             width: 247px;
-            height: 100px;
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 2px;
         }
+            .block__tag {
+                display: block;
+                width: fit-content;
+                padding: 9px 12px;
+                background-color: #E6E6E6;
+                border-radius: 24px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+                color: #323232;
+                white-space: nowrap;
+            }
