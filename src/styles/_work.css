@@ -2,6 +2,7 @@
     background-color: #FFFFFF;
     border-radius: 32px;
     padding: 30px;
+    user-select: none;
 }
     .work img {
         width: 100%;
