@@ -22,7 +22,7 @@
         border: 16px solid transparent;
     }
         .block__summary {
-            background-image: url("../temp/block-tags.png");
+            background-image: url("../temp/block-tags.svg");
             background-size: contain;
             width: 200px;
             height: 32px;
