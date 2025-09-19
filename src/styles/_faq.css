@@ -17,11 +17,22 @@
             border-top: none;
         }
             .faq__question {
+                position: relative;
                 font-size: 22px;
                 line-height: 22px;
                 letter-spacing: -0.4px;
                 color: #000000;
             }
+                .faq__question::after {
+                    content: "";
+                    position: absolute;
+                    right: -32px;
+                    top: 0;
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    background-image: url("../vectors/faq-chevron.svg");
+                }
 
             .faq__answer {
                 margin-top: 28px;
