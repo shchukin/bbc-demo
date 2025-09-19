@@ -65,11 +65,21 @@
         }
 
         if( $carousel.classList.contains('carousel--js-feedback') ) {
-            const feedbackWwiper = new Swiper($carousel.querySelector('.swiper'), {
+            new Swiper($carousel.querySelector('.swiper'), {
                 slidesPerView: 4,
                 slidesPerGroup: 4,
                 initialSlide: 8,
                 loop: true,
+                spaceBetween: 8,
+                autoHeight: true,
+                speed: 600,
+            });
+        }
+
+        if( $carousel.classList.contains('carousel--js-init-tops') ) {
+            const feedbackWwiper = new Swiper($carousel.querySelector('.swiper'), {
+                slidesPerView: 2,
+                slidesPerGroup: 2,
                 spaceBetween: 8,
                 autoHeight: true,
                 speed: 600,

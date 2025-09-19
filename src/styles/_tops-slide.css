@@ -1,0 +1,26 @@
+.tops-slide {
+    aspect-ratio: 1/1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+}
+    .tops-slide__item {
+        position: relative;
+    }
+        .tops-slide__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 32px;
+        }
+
+        .tops-slide__userpic {
+            position: absolute;
+            left: 8px;
+            bottom: 8px;
+            width: 48px;
+            height: 48px;
+            background-color: #0080FF;
+            border-radius: 50%;
+        }
