@@ -38,9 +38,9 @@
 
         .block__tags {
             position: absolute;
+            right: 0;
             left: 0;
             bottom: 0;
-            width: 247px;
             display: flex;
             align-items: flex-start;
             flex-wrap: wrap;
