@@ -109,15 +109,15 @@
         z-index: 10;
         top: 50%;
         margin-top: -45px;
-        width: 28px;
-        height: 90px;
+        width: 48px;
+        height: 96px;
         padding: 0;
-        background-color: rgb(0 0 0 / 20%);
+        background-color: rgb(178 178 178 / 50%);
         border: none;
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 5px;
+        border-radius: 16px;
         cursor: pointer;
         transition: background-color var(--transition-hover);
     }
@@ -134,15 +134,15 @@
     }
 
     .carousel--css-default-arrow .carousel__button--prev {
-        left: -14px;
+        left: -24px;
     }
 
     .carousel--css-default-arrow .carousel__button--next {
-        right: -14px;
+        right: -24px;
     }
         .carousel--css-default-arrow .carousel__chevron {
             vertical-align: top;
-            fill: #FFFFFF;
+            stroke: #FFFFFF;
         }
 
 
@@ -513,40 +513,6 @@
     .carousel--css-skin-companies .swiper-slide {
         width: 178px !important;
     }
-        .carousel--css-skin-companies .carousel__button--prev {
-            left: auto;
-            right: 50%;
-            margin-right: calc(var(--container-width) / 2);
-        }
-
-        .carousel--css-skin-companies .carousel__button--next {
-            right: auto;
-            left: 50%;
-            margin-left: calc(var(--container-width) / 2);
-        }
-
-    .carousel--css-skin-companies::before,
-    .carousel--css-skin-companies::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        z-index: 100;
-        width: 1000px;
-        pointer-events: none;
-    }
-
-    .carousel--css-skin-companies::before {
-        right: 50%;
-        margin-right: calc(var(--container-width) / 2);
-        background-image: linear-gradient(to right, #F5F5F7, #F5F5F7 900px, transparent);
-    }
-
-    .carousel--css-skin-companies::after {
-        left: 50%;
-        margin-left: calc(var(--container-width) / 2);
-        background-image: linear-gradient(to left, #F5F5F7, #F5F5F7 900px, transparent);
-    }
 
 
 @media (width < 740px) {
@@ -567,6 +533,54 @@
 
                     }
 }
+
+
+
+
+/* Gradients */
+
+.carousel--css-gradients {
+
+}
+    .carousel--css-gradients .swiper-slide {
+
+    }
+        .carousel--css-gradients .carousel__button--prev {
+            left: auto;
+            right: 50%;
+            margin-right: calc(var(--container-width) / 2 - 24px);
+        }
+
+        .carousel--css-gradients .carousel__button--next {
+            right: auto;
+            left: 50%;
+            margin-left: calc(var(--container-width) / 2 - 24px);
+        }
+
+    .carousel--css-gradients::before,
+    .carousel--css-gradients::after {
+        content: "";
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        bottom: 0;
+        width: 300px;
+        pointer-events: none;
+    }
+
+    .carousel--css-gradients::before {
+        right: 50%;
+        margin-right: calc(var(--container-width) / 2);
+        background-image: linear-gradient(to right, #F5F5F7, #F5F5F7 200px, transparent);
+    }
+
+    .carousel--css-gradients::after {
+        left: 50%;
+        margin-left: calc(var(--container-width) / 2);
+        background-image: linear-gradient(to left, #F5F5F7, #F5F5F7 200px, transparent);
+    }
+
+
 
 
 
