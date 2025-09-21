@@ -91,10 +91,10 @@
         if( $carousel.classList.contains('carousel--js-init-tops') ) {
             const feedbackWwiper = new Swiper($carousel.querySelector('.swiper'), {
                 slidesPerView: 2,
-                slidesPerGroup: 2,
+                slidesPerGroup: 1,
                 spaceBetween: 8,
                 autoHeight: true,
-                initialSlide: 2,
+                initialSlide: 1,
                 speed: 600,
                 pagination: {
                     el: $carousel.querySelector('.carousel__pagination'),
