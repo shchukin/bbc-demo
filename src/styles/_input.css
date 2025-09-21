@@ -5,9 +5,6 @@
         position: absolute;
         left: 16px;
         top: 13px;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 12px;
         color: #666666;
     }
 
@@ -22,9 +19,6 @@
         outline: none;
         border-radius: 16px;
         font-family: inherit;
-        font-weight: 500;
-        font-size: 18px; /* not less than 16px (otherwise mobile browsers will zoom in on focus) */
-        line-height: 18px;
         color: #333333;
         opacity: 1; /* reset select:disabled default fade on iOS */
         -webkit-tap-highlight-color: transparent;

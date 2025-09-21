@@ -27,17 +27,11 @@
     }
         .switch__heading {
             display: block;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 16px;
             text-align: left;
         }
 
         .switch__value {
             display: block;
             margin-top: 4px;
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 18px;
             text-align: left;
         }

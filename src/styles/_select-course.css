@@ -33,8 +33,6 @@
                 }
 
                 .select-course__sub-heading {
-                    font-size: 18px;
-                    line-height: 18px;
                     color: #333333;
                 }
 
@@ -64,16 +62,11 @@
                     }
 
                     .select-course__item-heading {
-                        font-size: 18px;
-                        line-height: 18px;
-                        letter-spacing: -0.4px;
+
                     }
 
                     .select-course__tags {
                         margin-top: 2px;
-                        font-size: 14px;
-                        line-height: 14px;
-                        color: #808080;
                     }
 
                     .select-course__hashtags {
