@@ -1,3 +1,7 @@
+.text {
+
+}
+
 .text--h1 {
     font-weight: 500;
     font-size: 56px;
@@ -41,4 +45,17 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
+}
+
+.text--btn-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.32px;
+}
+
+.text--hashtag {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;
 }

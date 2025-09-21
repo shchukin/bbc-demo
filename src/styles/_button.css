@@ -7,9 +7,6 @@
     background-color: #009EFF;
     border-radius: 16px;
     font-family: inherit;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
@@ -55,7 +52,4 @@
 
 .button--smaller {
     padding: 16px 24px;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: -0.2px;
 }
