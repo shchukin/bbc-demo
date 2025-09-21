@@ -100,8 +100,6 @@
                 .select-course__requisites {
                     margin-top: 24px;
                     font-weight: 500;
-                    font-size: 14px;
-                    line-height: 18px;
                     color: #666666;
                 }
 
@@ -121,8 +119,6 @@
 
                 .select-course__note {
                     margin-top: 8px;
-                    font-size: 14px;
-                    line-height: 18px;
                     color: #666666;
                     text-align: center;
                 }

@@ -8,10 +8,7 @@
         .footer__info {
             margin-top: -5px;
             flex-shrink: 0;
-            font-size: 14px;
-            line-height: 18px;
             color: #808080;
-            letter-spacing: -0.2px;
         }
 
         .footer__note {
@@ -19,8 +16,6 @@
             padding: 13px 16px;
             background-color: #FFFFFF;
             border-radius: 16px;
-            font-size: 14px;
-            line-height: 18px;
         }
 
     .footer__secondary {

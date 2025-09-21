@@ -20,7 +20,6 @@
                 position: relative;
                 font-size: 22px;
                 line-height: 22px;
-                letter-spacing: -0.4px;
                 color: #000000;
             }
                 .faq__question::after {
