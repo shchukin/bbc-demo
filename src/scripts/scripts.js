@@ -94,6 +94,7 @@
                 slidesPerGroup: 2,
                 spaceBetween: 8,
                 autoHeight: true,
+                initialSlide: 2,
                 speed: 600,
                 pagination: {
                     el: $carousel.querySelector('.carousel__pagination'),
@@ -116,6 +117,36 @@
     $('.remove-cut').on('click', function(e) {
         $('.carousel').toggleClass('carousel--remove-cut');
     })
+
+
+    /* Бегущая строка -- галерея на главной
+     *
+     * Иногда браузер подтупливает и запускает анимацию с разной скоростью.
+     * Что-то типа: 100% ширины для анимации в стилях может просчитаться
+     * с учётом клонирования в скрипте, или без. Решается явной простановкой
+     * класса marquee--init-animation
+     */
+    $('.marquee').each(function() {
+        const $marquee = $(this);
+        const $content = $marquee.find('.marquee__content');
+
+        const contentWidth = $content.width();
+        const containerWidth = $marquee.width();
+
+        /* Скорость анимации (чтобы не зависела от количества плиток) */
+        const baseSpeed = 30;
+        const animationDuration = contentWidth / baseSpeed;
+        $content.css('animation-duration', animationDuration + 's');
+
+        /* Дублируем контент для создания эффекта бесконечной строки */
+        $content.append($content.html());
+        $content.append($content.html());
+
+        /* Устанавливаем ширину контента, чтобы он был достаточно длинным */
+        $content.css('width', contentWidth * 3 + 'px');
+
+        $marquee.addClass('marquee--init-animation');
+    });
 
 
 })(jQuery);

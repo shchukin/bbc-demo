@@ -540,7 +540,7 @@
 /* Gradients */
 
 .carousel--css-gradients {
-
+    position: relative;
 }
     .carousel--css-gradients .swiper-slide {
 
@@ -564,20 +564,20 @@
         z-index: 5;
         top: 0;
         bottom: 0;
-        width: 300px;
+        width: 1000px;
         pointer-events: none;
     }
 
     .carousel--css-gradients::before {
         right: 50%;
         margin-right: calc(var(--container-width) / 2);
-        background-image: linear-gradient(to right, #F5F5F7, #F5F5F7 200px, transparent);
+        background-image: linear-gradient(to right, #F5F5F7, #F5F5F7 800px, transparent);
     }
 
     .carousel--css-gradients::after {
         left: 50%;
         margin-left: calc(var(--container-width) / 2);
-        background-image: linear-gradient(to left, #F5F5F7, #F5F5F7 200px, transparent);
+        background-image: linear-gradient(to left, #F5F5F7, #F5F5F7 800px, transparent);
     }
 
 
