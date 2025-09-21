@@ -69,7 +69,8 @@
         if( $carousel.classList.contains('carousel--js-feedback') ) {
             new Swiper($carousel.querySelector('.swiper'), {
                 slidesPerView: 4,
-                slidesPerGroup: 4,
+                slidesPerGroup: 2,
+                initialSlide: 2,
                 spaceBetween: 8,
                 autoHeight: true,
                 speed: 600,
