@@ -1,7 +1,6 @@
 .marquee {
     overflow: hidden;
-    padding-top: 12px; /* чтобы наведение не обрезалось padding именно здесь*/
-    padding-bottom: 12px; /* чтобы наведение не обрезалось padding именно здесь */
+    margin-top: 16px;
     display: flex;
 }
     .marquee__content {
