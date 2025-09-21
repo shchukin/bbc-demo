@@ -78,11 +78,8 @@
 
             .stage__heading {
                 margin-top: 8px;
-                font-size: 56px;
-                line-height: 50px;
                 text-align: center;
                 color: #FFFFFF;
-                letter-spacing: -1px;
             }
 
             .stage__note {
