@@ -145,6 +145,14 @@
             stroke: #FFFFFF;
         }
 
+        .carousel--css-default-arrow .carousel__button--prev .carousel__chevron {
+            margin-left: -4px;
+        }
+
+        .carousel--css-default-arrow .carousel__button--next .carousel__chevron {
+            margin-right: -4px;
+        }
+
 
 
 .carousel--css-default-arrow.carousel--not-enough-slides .carousel__button {
