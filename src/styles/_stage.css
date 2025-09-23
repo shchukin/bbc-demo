@@ -32,16 +32,14 @@
         padding: 16px 16px 32px;
     }
         .stage__head {
-            /*position: absolute;*/
-            /*top: 16px;*/
-            /*left: 16px;*/
-            /*right: 16px;*/
+            padding-left: 16px;
             display: flex;
-            align-items: flex-start;
+            align-items: stretch;
             justify-content: space-between;
         }
             .stage__logo {
-                padding: 10px 16px;
+                display: flex;
+                align-items: center;
                 color: #FFFFFF;
             }
 

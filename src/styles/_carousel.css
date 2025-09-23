@@ -650,13 +650,3 @@
             color: #FFFFFF;
         }
 }
-
-
-
-
-.carousel--remove-cut {
-
-}
-    .carousel--remove-cut .swiper {
-        overflow: visible;
-    }
