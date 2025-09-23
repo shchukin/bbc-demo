@@ -1,15 +1,13 @@
 .mad-rabbit {
     display: inline-block;
     align-items: baseline;
-    padding: 9px 12px 9px 34px;
+    padding: 12px 12px 12px 40px;
     background-color: #D9D9D9;
     background-image: url("../images/mad-rabbit/mad-rabbit@1x.png");
-    background-size: 26px 26px;
+    background-size: 32px 32px;
     background-repeat: no-repeat;
     background-position: 4px center;
-    border-radius: 16px;
-    font-size: 14px;
-    line-height: 14px;
+    border-radius: 20px;
     color: #323232;
 }
 
