@@ -134,11 +134,11 @@
     }
 
     .carousel--css-default-arrow .carousel__button--prev {
-        left: -24px;
+        left: -28px;
     }
 
     .carousel--css-default-arrow .carousel__button--next {
-        right: -24px;
+        right: -28px;
     }
         .carousel--css-default-arrow .carousel__chevron {
             vertical-align: top;
@@ -623,7 +623,6 @@
                     .carousel--css-skin-solutions-modules .swiper-slide {
 
                     }
-
 }
 
 
@@ -650,3 +649,13 @@
             color: #FFFFFF;
         }
 }
+
+
+
+
+.carousel--remove-overflow {
+
+}
+    .carousel--remove-overflow .swiper {
+        overflow: visible;
+    }
