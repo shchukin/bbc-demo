@@ -1,6 +1,5 @@
 .marquee {
     overflow: hidden;
-    margin-top: 16px;
     display: flex;
 }
     .marquee__content {

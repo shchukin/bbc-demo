@@ -2,7 +2,6 @@
     margin-top: var(--sections-spacing);
 }
     .pros__body {
-        margin-top: 16px;
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 8px;

@@ -1,18 +1,20 @@
 .footer {
-    padding: 38px 32px;
+    margin-top: 38px;
+    padding-bottom: 38px;
 }
     .footer__primary {
         display: flex;
+        justify-content: space-between;
         gap: 16px;
     }
         .footer__info {
-            margin-top: -5px;
+            margin-top: -6px;
             flex-shrink: 0;
             color: #808080;
         }
 
         .footer__note {
-            flex-grow: 1;
+            width: 384px;
             padding: 13px 16px;
             background-color: #FFFFFF;
             border-radius: 16px;
