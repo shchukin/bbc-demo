@@ -556,13 +556,13 @@
         .carousel--css-gradients .carousel__button--prev {
             left: auto;
             right: 50%;
-            margin-right: calc(var(--container-width) / 2 - 24px);
+            margin-right: calc(var(--container-width) / 2 - 20px);
         }
 
         .carousel--css-gradients .carousel__button--next {
             right: auto;
             left: 50%;
-            margin-left: calc(var(--container-width) / 2 - 24px);
+            margin-left: calc(var(--container-width) / 2 - 20px);
         }
 
     .carousel--css-gradients::before,
