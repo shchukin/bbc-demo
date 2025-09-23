@@ -22,10 +22,9 @@
         border: 16px solid transparent;
     }
         .block__summary {
-            background-image: url("../temp/block-tags.svg");
-            background-size: contain;
-            width: 200px;
-            height: 32px;
+            display: flex;
+            align-items: flex-start;
+            gap: 2px;
         }
 
         .block__heading {
