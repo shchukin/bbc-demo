@@ -1,5 +1,5 @@
 .tops {
-    padding-top: 140px;
+    margin-top: var(--sections-spacing);
 }
     .tops__body {
         margin-top: 16px;

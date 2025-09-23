@@ -16,6 +16,7 @@
     --disabled-background: #F6F6F6;
     --disabled-color: #999999;
     --error: #FF0033;
+    --sections-spacing: 140px;
 }
 
 @media (350px <= width < 740px) {

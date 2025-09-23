@@ -1,6 +1,5 @@
 .feedback {
-    padding-top: 142px;
-    padding-bottom: 144px;
+    margin-top: var(--sections-spacing);
 }
     .feedback__body {
         margin-top: 16px;

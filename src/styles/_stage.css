@@ -4,6 +4,7 @@
     border: 16px solid transparent;
     display: flex;
     flex-direction: column;
+    margin-bottom: -16px;
 }
     .stage__background {
         position: absolute;

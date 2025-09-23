@@ -1,5 +1,5 @@
 .our-courses {
-
+    margin-top: var(--sections-spacing);
 }
     .our-courses__wrap {
         background-color: #FFFFFF;

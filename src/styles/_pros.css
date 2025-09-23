@@ -1,6 +1,5 @@
 .pros {
-    padding-top: 142px;
-    padding-bottom: 144px;
+    margin-top: var(--sections-spacing);
 }
     .pros__body {
         margin-top: 16px;

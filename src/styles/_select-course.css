@@ -1,6 +1,5 @@
 .select-course {
-    padding-top: 140px;
-    padding-bottom: 118px;
+    margin-top: var(--sections-spacing);
 }
     .select-course__body {
         display: grid;

@@ -1,5 +1,5 @@
 .faq {
-
+    margin-top: var(--sections-spacing);
 }
     .faq__wrap {
         margin-top: 16px;

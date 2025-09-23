@@ -1,5 +1,5 @@
 .student-works {
-    padding-top: 144px;
+    margin-top: var(--sections-spacing);
 }
     .student-works__body {
         margin-top: 20px;
