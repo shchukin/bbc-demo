@@ -1,5 +1,5 @@
 .section-head {
-    padding-bottom: 48px;
+    padding-bottom: var(--spacing-under-header);
 }
     .section-head__label {
         text-align: center;
