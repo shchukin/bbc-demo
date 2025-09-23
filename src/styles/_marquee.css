@@ -1,7 +1,32 @@
 .marquee {
+    --visible: 960px; /* ширина видимой части, на которую не распространяется фейдящий градиент */
+}
+
+.marquee {
+    position: relative; /* для фонового градиента */
     overflow: hidden;
     display: flex;
 }
+    .marquee::before,
+    .marquee::after {
+        content: "";
+        position: absolute;
+        z-index: 60;
+        top: 0;
+        bottom: 0;
+        width: calc((100vw - var(--visible)) / 2);
+    }
+
+    .marquee::before {
+        right: calc(50% + var(--visible) / 2);
+        background-image: linear-gradient(to left, transparent, #F5F5F7 50%, #F5F5F7);
+    }
+
+    .marquee::after {
+        left: calc(50% + var(--visible) / 2);
+        background-image: linear-gradient(to right, transparent, #F5F5F7 50%, #F5F5F7);
+    }
+
     .marquee__content {
         display: flex;
         flex-shrink: 0;
