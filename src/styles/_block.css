@@ -43,12 +43,3 @@
             flex-wrap: wrap;
             gap: 2px;
         }
-            .block__tag {
-                display: block;
-                width: fit-content;
-                padding: 13px 16px;
-                background-color: #E6E6E6;
-                border-radius: 24px;
-                color: #323232;
-                white-space: nowrap;
-            }

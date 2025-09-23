@@ -19,11 +19,11 @@
     }
 
     .section-head__tags {
-        width: 732px;
-        height: 72px;
-        margin: 24px auto 0;
-        background-image: url("../temp/hashtags.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
+        width: 800px;
+        margin: 28px auto -16px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4px;
     }
