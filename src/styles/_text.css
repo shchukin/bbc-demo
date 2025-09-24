@@ -29,12 +29,6 @@
     letter-spacing: 1.12px;
 }
 
-.text--aft-h1 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 18px;
-}
-
 .text--main {
     font-weight: 500;
     font-size: 20px;
@@ -43,8 +37,8 @@
 
 .text--small {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .text--btn-name {
