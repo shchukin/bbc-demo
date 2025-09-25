@@ -71,7 +71,7 @@
                 slidesPerView: 4,
                 slidesPerGroup: 2,
                 initialSlide: 3,
-                spaceBetween: 8,
+                spaceBetween: -16, /* В оригинале было 8, пробуем -16 */
                 autoHeight: true,
                 speed: 600,
                 pagination: {
