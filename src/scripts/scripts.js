@@ -71,7 +71,8 @@
                 slidesPerView: 4,
                 slidesPerGroup: 2,
                 initialSlide: 3,
-                spaceBetween: -16, /* В оригинале было 8, пробуем -16 */
+                spaceBetween: 0, /* В оригинале было 8, пробуем -16 */
+                loop: true,
                 autoHeight: true,
                 speed: 600,
                 pagination: {
@@ -104,6 +105,38 @@
                     bulletActiveClass: 'carousel__bullet--current',
                     clickable: true
                 },
+                navigation: {
+                    prevEl: $carousel.querySelector('.carousel__button--prev'),
+                    nextEl: $carousel.querySelector('.carousel__button--next'),
+                    disabledClass: 'carousel__button--disabled',
+                },
+            });
+        }
+
+
+        /* looped */
+
+        if( $carousel.classList.contains('carousel--js-feedback-looped') ) {
+            new Swiper($carousel.querySelector('.swiper'), {
+                loop: true,
+                slidesPerView: 'auto',
+                loopedSlides: 8, // Укажите количество слайдов, которые нужно клонировать (подберите значение экспериментально)
+
+                navigation: {
+                    prevEl: $carousel.querySelector('.carousel__button--prev'),
+                    nextEl: $carousel.querySelector('.carousel__button--next'),
+                    disabledClass: 'carousel__button--disabled',
+                },
+            });
+        }
+
+        if( $carousel.classList.contains('carousel--js-init-tops-looped') ) {
+            const feedbackWwiper = new Swiper($carousel.querySelector('.swiper'), {
+                loop: true,
+                slidesPerView: 'auto',
+                centeredSlides: true,
+
+                spaceBetween: 8,
                 navigation: {
                     prevEl: $carousel.querySelector('.carousel__button--prev'),
                     nextEl: $carousel.querySelector('.carousel__button--next'),

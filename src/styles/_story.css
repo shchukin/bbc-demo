@@ -1,5 +1,7 @@
 .story {
     display: block;
+    margin-left: -8px;
+    margin-right: -8px;
 }
     .story__image {
         width: 100%;
@@ -10,6 +12,6 @@
     }
 
 
-.swiper-slide:nth-child(even) .story {
+.story--pushed {
     padding-top: 24px;
 }

@@ -659,3 +659,20 @@
     .carousel--remove-overflow .swiper {
         overflow: visible;
     }
+
+
+
+.carousel--js-feedback-looped {
+
+}
+    .carousel--js-feedback-looped .swiper-slide {
+        width: 258px;
+    }
+
+
+.carousel--js-init-tops-looped {
+
+}
+    .carousel--js-init-tops-looped .swiper-slide {
+        width: 556px;
+    }
