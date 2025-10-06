@@ -6,21 +6,14 @@
     flex-direction: column;
     margin-bottom: -16px;
 }
-    .stage__background {
+    .stage__video {
         position: absolute;
         inset: 0;
-        background-color: #96D8FB;
-        background-image: url("../temp/stage/stage@1x.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
+        width: 100%;
+        height: 100%;
+        background-color: #07050E;
         border-radius: 16px;
-    }
-
-    @media (min-resolution: 1.2dppx) {
-        .stage__background {
-            background-image: url("../temp/stage/stage@2x.jpg");
-        }
+        object-fit: cover;
     }
 
     .stage__overlay {
