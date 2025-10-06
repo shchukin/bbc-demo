@@ -23,8 +23,6 @@
         color: #FFFFFF;
         opacity: 1; /* reset select:disabled default fade on iOS */
         -webkit-tap-highlight-color: transparent;
-        transition: background-color var(--transition-hover),
-                    border-color var(--transition-hover);
     }
 
     .input__widget::placeholder {
@@ -38,7 +36,6 @@
 
     .input__widget:focus-visible {
         border-color: var(--input-border-hover-and-focus);
-        transition: none;
     }
 
 
