@@ -10,18 +10,21 @@
         .footer__info {
             margin-top: -6px;
             flex-shrink: 0;
-            color: #808080;
+            color: var(--30pct-footer-text-3);
         }
 
         .footer__note {
             width: 384px;
             padding: 13px 16px;
-            background-color: #FFFFFF;
+            background-color: var(--20pct-tool-tip);
             border-radius: 16px;
+            font-size: 16px;
+            line-height: 20px;
+            color: var(--70pct-text);
         }
 
     .footer__secondary {
-        margin-top: 10px;
+        margin-top: 24px;
         display: flex;
         justify-content: space-between;
     }
@@ -35,7 +38,29 @@
             margin-top: -6px;
             margin-bottom: -6px;
             margin-right: -6px;
-            width: 223px;
-            height: 60px;
-            background-image: url("../vectors/btn_social_network.svg");
+            display: flex;
+            gap: 8px;
         }
+            .footer__social {
+                width: 48px;
+                height: 48px;
+                text-indent: 200%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            .footer__social--adulthood {
+
+            }
+
+            .footer__social--telegram {
+
+            }
+
+            .footer__social--youtube {
+
+            }
+
+            .footer__social--instagram {
+
+            }

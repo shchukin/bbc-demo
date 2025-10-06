@@ -25,6 +25,7 @@
     --20pct-tool-tip: #333333;
     --90pct-on-color-bg: rgb(230 230 230 / 25%);
     --15pct-block: #262626;
+    --70pct-text: #B3B3B3;
 }
 
 @media (350px <= width < 740px) {
