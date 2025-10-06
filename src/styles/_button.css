@@ -1,6 +1,9 @@
 .button {
-    display: inline-block;
     vertical-align: top;
+    height: 64px; /* в случае вертикального центрирования, если маленькая иконка внутри без текста */
+    display: inline-flex;
+    justify-content: center;
+    gap: 16px;
     border: none;
     padding: 20px 24px 24px;
     min-width: 100px;
@@ -20,11 +23,15 @@
     background-color: var(--action-color-hover);
 }
 
-
 .button:active {
     translate: 0 1px;
     transition: none;
 }
+    .button__icon {
+        margin-top: -2px;
+        margin-bottom: -2px;
+        fill: currentColor;
+    }
 
 .button:disabled,
 .button:disabled:hover,
@@ -49,7 +56,24 @@
     color: #000000;
 }
 
+.button--gray {
+    background-color: #808080;
+}
+
+.button--gray:hover {
+    background-color: #A2A2A2;
+}
+
 
 .button--smaller {
     padding: 16px 24px;
 }
+
+
+.button--square {
+    min-width: 0;
+    width: 64px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
