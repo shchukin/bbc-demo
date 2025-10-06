@@ -3,10 +3,11 @@
     margin-left: -8px;
     margin-right: -8px;
 }
-    .story__image {
+    .story__video {
+        vertical-align: top;
         width: 100%;
         height: auto;
-        vertical-align: top;
+        aspect-ratio: 720/1280;
         background-color: var(--image-fallback);
         border-radius: 16px;
     }
