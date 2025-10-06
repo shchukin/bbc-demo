@@ -6,6 +6,10 @@
     margin-right: auto;
 }
 
+.container--wide {
+    width: calc(var(--container-width-wide) + 2 * var(--container-padding));
+}
+
 @media (width < 740px) {
 
     .container {

@@ -8,6 +8,7 @@
     --image-fallback: #F3F5F4;
     --container-padding: 40px;
     --container-width: 1120px;
+    --container-width-wide: 1360px;
     --action-color: #0D7FC5;
     --action-color-hover: #2FA5ED;
     --input-border: #B3B3B3;
@@ -16,8 +17,10 @@
     --disabled-background: #F6F6F6;
     --disabled-color: #999999;
     --error: #FF0033;
-    --sections-spacing: 140px;
+    --sections-spacing: 144px;
     --spacing-under-header: 48px;
+    --50pct-gray-label: #808080;
+    --30pct-footer-text-3: #4D4D4D;
 }
 
 @media (350px <= width < 740px) {
