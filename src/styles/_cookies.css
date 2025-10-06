@@ -1,0 +1,27 @@
+.cookies {
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+    margin: auto;
+    width: 720px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 8px 8px 16px;
+    background-color: #FFFFFF;
+    color: var(--15pct-block);
+    border-radius: 16px;
+}
+    .cookies__message {
+        flex-grow: 1;
+    }
+
+    .cookies__action {
+        width: 125px;
+        flex-shrink: 0;
+    }
+        .cookies__action .button {
+            width: 100%;
+        }
