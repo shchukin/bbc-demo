@@ -5,7 +5,8 @@
         position: absolute;
         left: 16px;
         top: 13px;
-        color: #666666;
+        color: var(--50pct-gray-label);
+        pointer-events: none;
     }
 
     .input__widget {
@@ -13,13 +14,13 @@
         width: 100%;
         height: 56px;
         padding: 25px 15px 13px;
-        background-color: #FFFFFF; /* reset grey background in some cases, such as <select> */
+        background-color: var(--20pct-tool-tip); /* reset grey background in some cases, such as <select> */
         background-clip: padding-box; /* hack for iOS to make box-shadow works (same as border-radius in the past) */
-        border: 1px solid var(--input-border);
+        border: 1px solid var(--30pct-footer-text-3);
         outline: none;
         border-radius: 16px;
         font-family: inherit;
-        color: #333333;
+        color: #FFFFFF;
         opacity: 1; /* reset select:disabled default fade on iOS */
         -webkit-tap-highlight-color: transparent;
         transition: background-color var(--transition-hover),
@@ -32,7 +33,7 @@
     }
 
     .input__widget:hover {
-
+        border-color: #797979;
     }
 
     .input__widget:focus-visible {

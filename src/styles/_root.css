@@ -13,8 +13,8 @@
     --action-color: #0D7FC5;
     --action-color-hover: #2FA5ED;
     --input-border: #B3B3B3;
-    --input-border-hover-and-focus: #333333;
-    --placeholder-color: #999999;
+    --input-border-hover-and-focus: var(--yellow);
+    --placeholder-color: var(--50pct-gray-label);
     --disabled-background: #F6F6F6;
     --disabled-color: #999999;
     --error: #FF0033;
@@ -27,6 +27,7 @@
     --15pct-block: #262626;
     --70pct-text: #B3B3B3;
     --10pct-bg: #1A1A1A;
+    --yellow: #FFCC6B;
 }
 
 @media (350px <= width < 740px) {
