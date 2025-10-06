@@ -12,8 +12,8 @@
     .input__widget {
         vertical-align: top;
         width: 100%;
-        height: 56px;
-        padding: 25px 15px 13px;
+        height: 64px;
+        padding: 32px 15px 10px;
         background-color: var(--20pct-tool-tip); /* reset grey background in some cases, such as <select> */
         background-clip: padding-box; /* hack for iOS to make box-shadow works (same as border-radius in the past) */
         border: 1px solid var(--30pct-footer-text-3);
