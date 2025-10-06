@@ -9,6 +9,12 @@
     letter-spacing: -1.1px;
 }
 
+.text--h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+}
+
 .text--h3 {
     font-weight: 500;
     font-size: 22px;
@@ -69,4 +75,10 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
+}
+
+.text--faq-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
 }

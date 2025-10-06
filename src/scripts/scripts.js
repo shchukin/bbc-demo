@@ -1,5 +1,41 @@
 (function($) {
 
+
+    /* Init magnific popup */
+
+    $('.mfp-handler').magnificPopup({
+        type: 'inline',
+        removalDelay: 200,
+        showCloseBtn: false,
+        callbacks: {
+            open: function() {
+                const $popup = $.magnificPopup.instance.content;
+
+                /* If there is .input--expandable inside, re-run height calculations (meaning height was zero on document ready because modal window contains was hidden) */
+                const $expandableInputs = $popup.find('.input--expandable .input__widget');
+                if($expandableInputs.length) {
+                    $expandableInputs.each(function() {
+                        expandTextarea($(this));
+                    });
+                }
+
+                /* Focus on the first input, if any  */
+                setTimeout(function () {
+                    const $firstInput = $popup.find('input').first();
+                    if ($firstInput.length) {
+                        $firstInput.focus();
+                    }
+                }, 100);
+            }
+        }
+    });
+
+
+    $(document).on('click', '.mfp-close-handler', function(event) {
+        event.preventDefault();
+        $.magnificPopup.close();
+    });
+
     /* Карусели */
 
     document.querySelectorAll('.carousel').forEach(($carousel) => {

@@ -17,8 +17,8 @@
 }
 
 .mfp-content {
-    margin-top: calc(var(--container-padding) / 2);        /* vertical spacing */
-    margin-bottom: calc(var(--container-padding) / 2);     /* vertical spacing */
+    margin-top: 48px;        /* vertical spacing */
+    margin-bottom: 48px;     /* vertical spacing */
     text-align: center;
 }
 

@@ -57,7 +57,7 @@
 }
 
 .button--gray {
-    background-color: #808080;
+    background-color: var(--50pct-gray-label);
 }
 
 .button--gray:hover {
@@ -73,6 +73,17 @@
     background-color: #1E1E1E;
 }
 
+
+.button--transparent {
+    background-color: transparent;
+    color: var(--50pct-gray-label);
+}
+
+.button--transparent:hover {
+    background-color: transparent;
+    color: var(--50pct-gray-label);
+}
+
 .button--smaller {
     height: 48px;
     padding: 14px 16px;
@@ -85,5 +96,9 @@
     width: 64px;
     padding-left: 0;
     padding-right: 0;
+}
+
+.button--square.button--smaller {
+    width: 48px;
 }
 

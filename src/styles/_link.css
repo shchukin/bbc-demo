@@ -26,6 +26,15 @@
 }
 
 
+.link--youtube {
+    padding-left: 36px;
+    background-image: url("../vectors/youtube-link.svg");
+    background-size: 24px 16px;
+    background-repeat: no-repeat;
+    background-position: 6px 12px;
+}
+
+
 .link--text-alike,
 .wysiwyg .link--text-alike {
     color: inherit;

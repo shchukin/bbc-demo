@@ -1,0 +1,32 @@
+.chapter {
+    display: grid;
+    grid-template-columns: 384px 288px;
+    align-items: center;
+    gap: 96px;
+}
+    .chapter__body {
+
+    }
+        .chapter__index {
+            color: #808080;
+        }
+
+        .chapter__heading {
+            margin-top: 4px;
+            max-width: 296px;
+        }
+
+        .chapter__description {
+            margin-top: 8px;
+            font-size: 18px;
+            line-height: 22px;
+            color: #808080;
+        }
+
+    .chapter__preview {
+
+    }
+        .chapter__illustration {
+            border-radius: 48px;
+            vertical-align: top;
+        }

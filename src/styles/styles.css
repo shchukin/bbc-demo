@@ -22,7 +22,7 @@
 
 @import url("_mfp.css");
 @import url("_window.css");
-@import url("_login.css");
+@import url("_details.css");
 @import url("_carousel.css");
 @import url("_perk.css");
 @import url("_pros.css");
@@ -52,4 +52,5 @@
 @import url("_slide-down.css");
 @import url("_cart-block.css");
 @import url("_cookies.css");
+@import url("_chapter.css");
 
