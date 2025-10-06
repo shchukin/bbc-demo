@@ -2,8 +2,8 @@
     display: flex;
     align-items: stretch;
     gap: 4px;
-    padding: 1px;
-    background-color: #808080;
+    padding: 2px;
+    background-color: var(--10pct-bg);
     border-radius: 16px;
 }
     .switch__tab {
@@ -12,7 +12,7 @@
         flex-basis: 0;
         border: none;
         background-color: transparent;
-        padding: 8px 16px;
+        padding: 10px 14px;
         font-family: inherit;
         border-radius: 15px;
         text-align: left;
@@ -20,18 +20,25 @@
         cursor: pointer;
     }
 
-    .switch__tab--current {
-        background-color: #E6E6E6;
+    .switch__tab:hover {
+        background-color: #212121;
+    }
+
+    .switch__tab--current,
+    .switch__tab--current:hover {
+        background-color: var(--20pct-tool-tip);
         color: #333333;
         cursor: default;
     }
         .switch__heading {
             display: block;
             text-align: left;
+            color: var(--50pct-gray-label);
         }
 
         .switch__value {
             display: block;
-            margin-top: 4px;
+            margin-top: 8px;
+            color: #FFFFFF;
             text-align: left;
         }

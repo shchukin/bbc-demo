@@ -21,7 +21,7 @@
         height: 100%;
         border: 16px solid transparent;
     }
-        .block__summary {
+        .block__stats {
             display: flex;
             align-items: flex-start;
             gap: 2px;

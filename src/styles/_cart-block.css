@@ -1,0 +1,27 @@
+.cart-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+    .cart-block__illustration {
+        flex-shrink: 0;
+        border-radius: 24px;
+    }
+
+    .cart-block__body {
+        margin-top: 8px;
+    }
+        .cart-block__heading {
+
+        }
+
+        .cart-block__tags {
+            margin-top: 6px;
+            color: var(--50pct-gray-label);
+        }
+
+        .cart-block__stats {
+            margin-top: 6px;
+            display: flex;
+            align-items: flex-start;
+        }
