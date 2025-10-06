@@ -3,6 +3,8 @@
     width: 960px;
 }
     .details__video {
+        position: absolute;
+        inset: 0;
         vertical-align: top;
         width: 100%;
         height: auto;
@@ -11,8 +13,43 @@
         border-radius: 48px;
     }
 
+    .details__stage {
+        height: 460px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+        .details__stats {
+            display: flex;
+            align-items: flex-start;
+            gap: 2px;
+        }
+
+        .details__heading {
+            margin-top: 4px;
+            margin-bottom: 0;
+            color: #FFFFFF;
+        }
+
+        .details__tags {
+            margin-top: 16px;
+            display: flex;
+            align-items: flex-start;
+            gap: 2px;
+        }
+
+        .details__explainer {
+            position: absolute;
+            left: 120px;
+            right: 120px;
+            bottom: 16px;
+            color: #CCCCCC;
+            text-align: center;
+        }
+
     .details__body {
-        margin-top: -80px;
         padding: 48px 96px;
         position: relative;
         background-color: #FFFFFF;
@@ -23,7 +60,7 @@
             color: #808080;
         }
 
-        .details__heading {
+        .details__sub-heading {
             margin-top: 16px;
             color: #2E2F33;
         }
