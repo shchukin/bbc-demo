@@ -1,15 +1,23 @@
 .faq {
     margin-top: var(--sections-spacing);
 }
-    .faq__wrap {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        background-color: #FFFFFF;
-        border-radius: 32px;
+    .faq__body {
+
     }
         .faq__item {
-            padding: 32px 80px;
-            border-top: 2px solid #F5F5F7;
+            margin-top: 2px;
+            background-color: var(--15pct-block);
+        }
+
+        .faq__item:first-child {
+            margin-top: 0;
+            border-top-left-radius: 32px;
+            border-top-right-radius: 32px;
+        }
+
+        .faq__item:last-child {
+            border-bottom-left-radius: 32px;
+            border-bottom-right-radius: 32px;
         }
 
         .faq__item:first-child {
@@ -17,22 +25,49 @@
         }
             .faq__question {
                 position: relative;
+                padding: 32px 80px;
                 font-size: 22px;
                 line-height: 22px;
-                color: #000000;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+
+            .faq__item:first-child .faq__question {
+                border-top: 8px solid transparent;
+            }
+
+            .faq__item:last-child .faq__question {
+                border-bottom: 8px solid transparent;
             }
                 .faq__question::after {
                     content: "";
                     position: absolute;
-                    right: -32px;
-                    top: 0;
+                    right: 48px;
+                    top: 31px;
                     display: block;
                     width: 24px;
                     height: 24px;
+                    background-color: var(--50pct-gray-label);
                     background-image: url("../vectors/faq-chevron.svg");
+                    border-radius: 8px;
+                    transition: transform var(--transition-slide);
                 }
 
             .faq__answer {
-                margin-top: 24px;
-                color: #666666;
+                margin-top: -8px;
+                padding: 0 80px 32px;
+                color: var(--50pct-gray-label);
+                display: none;
             }
+
+.faq__item--expanded {
+
+}
+    .faq__item--expanded .faq__question::after {
+        transform: scaleY(-1);
+    }
+
+    .faq__item--expanded .faq__answer {
+        display: block;
+        animation: slide-down var(--transition-slide);
+    }

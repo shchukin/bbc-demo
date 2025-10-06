@@ -179,4 +179,11 @@
     });
 
 
+    /* FAQ */
+
+    $('.faq__question').on('click', function() {
+        const $currentItem = $(this).closest('.faq__item');
+        $currentItem.toggleClass('faq__item--expanded');
+    });
+
 })(jQuery);
