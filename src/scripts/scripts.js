@@ -72,7 +72,6 @@
                 slidesPerGroup: 2,
                 initialSlide: 3,
                 spaceBetween: 0, /* В оригинале было 8, пробуем -16 */
-                loop: true,
                 autoHeight: true,
                 speed: 600,
                 pagination: {
