@@ -3,6 +3,7 @@
     padding-bottom: 38px;
 }
     .footer__primary {
+        position: relative;
         display: flex;
         justify-content: space-between;
         gap: 16px;
@@ -14,8 +15,11 @@
         }
 
         .footer__note {
-            width: 384px;
-            padding: 13px 16px;
+            position: absolute;
+            right: 0;
+            bottom: -16px;
+            width: 435px;
+            padding: 16px;
             background-color: var(--20pct-tool-tip);
             border-radius: 16px;
             font-size: 16px;
@@ -35,9 +39,6 @@
         }
 
         .footer__media {
-            margin-top: -6px;
-            margin-bottom: -6px;
-            margin-right: -6px;
             display: flex;
             gap: 8px;
         }
@@ -50,17 +51,18 @@
             }
 
             .footer__social--adulthood {
-
+                background-image: url("../vectors/footer-media/footer-adulthood.svg");
             }
 
             .footer__social--telegram {
-
+                background-image: url("../vectors/footer-media/footer-telegram.svg");
             }
 
             .footer__social--youtube {
-
+                background-image: url("../vectors/footer-media/footer-youtube.svg");
             }
 
             .footer__social--instagram {
-
+                background-image: url("../vectors/footer-media/footer-instagram.svg");
+                filter: blur(3px);
             }
