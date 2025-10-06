@@ -29,6 +29,7 @@
     --10pct-bg: #1A1A1A;
     --8pct-black: #141414;
     --yellow: #FFCC6B;
+    --blue: #009EFF;
 }
 
 @media (350px <= width < 740px) {

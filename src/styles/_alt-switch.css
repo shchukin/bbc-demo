@@ -1,0 +1,39 @@
+.alt-switch {
+    display: flex;
+    align-items: stretch;
+    padding: 6px 7px;
+    border: 2px solid var(--20pct-tool-tip);
+    border-radius: 28px;
+}
+    .alt-switch__tab {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+        border: none;
+        background-color: transparent;
+        padding: 12px 16px;
+        font-family: inherit;
+        border-radius: 20px;
+        text-align: left;
+        white-space: nowrap;
+        color: var(--50pct-gray-label);
+        cursor: pointer;
+    }
+
+    .alt-switch__tab:hover {
+        background-color: var(--20pct-tool-tip);
+    }
+
+    .alt-switch__tab:hover {
+
+    }
+
+    .alt-switch__tab--current,
+    .alt-switch__tab--current:hover {
+        background-color: var(--blue);
+        color: #FFFFFF;
+        cursor: default;
+    }
+        .alt-switch__heading {
+
+        }
