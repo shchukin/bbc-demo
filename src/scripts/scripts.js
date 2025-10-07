@@ -139,12 +139,7 @@
                     bulletClass: 'carousel__bullet',
                     bulletActiveClass: 'carousel__bullet--current',
                     clickable: true
-                },
-                navigation: {
-                    prevEl: $carousel.querySelector('.carousel__button--prev'),
-                    nextEl: $carousel.querySelector('.carousel__button--next'),
-                    disabledClass: 'carousel__button--disabled',
-                },
+                }
             });
         }
 
@@ -156,12 +151,6 @@
                 loop: true,
                 slidesPerView: 'auto',
                 loopedSlides: 8, // Укажите количество слайдов, которые нужно клонировать (подберите значение экспериментально)
-
-                navigation: {
-                    prevEl: $carousel.querySelector('.carousel__button--prev'),
-                    nextEl: $carousel.querySelector('.carousel__button--next'),
-                    disabledClass: 'carousel__button--disabled',
-                },
             });
         }
 
@@ -170,13 +159,7 @@
                 loop: true,
                 slidesPerView: 'auto',
                 centeredSlides: true,
-
                 spaceBetween: 8,
-                navigation: {
-                    prevEl: $carousel.querySelector('.carousel__button--prev'),
-                    nextEl: $carousel.querySelector('.carousel__button--next'),
-                    disabledClass: 'carousel__button--disabled',
-                },
             });
         }
 
