@@ -46,9 +46,9 @@
 
             .stage__trailer-handler {
                 display: block;
-                width: 48px;
-                height: 32px;
-                background-image: url("../images/trailer-handler.png");
+                width: 96px;
+                height: 64px;
+                background-image: url("../images/trailer-handler/trailer-handler.png");
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -59,7 +59,7 @@
 
             @media (min-resolution: 1.2dppx) {
                 .stage__trailer-handler {
-                    background-image: url("../images/trailer-handler@2x.png");
+                    background-image: url("../images/trailer-handler/trailer-handler@2x.png");
                 }
             }
 
