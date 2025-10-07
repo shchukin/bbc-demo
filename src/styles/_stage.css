@@ -24,7 +24,15 @@
         justify-content: space-between;
         padding: 16px;
     }
+        .stage__overlay::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: linear-gradient(transparent, #1A1A1A);
+        }
+
         .stage__head {
+            position: relative;
             padding: 8px 16px;
             display: flex;
             align-items: stretch;
@@ -56,6 +64,7 @@
             }
 
         .stage__contains {
+            position: relative;
             padding-bottom: 32px;
         }
             .stage__crowd {
@@ -90,6 +99,7 @@
                 }
 
             .stage__footer {
+                position: relative;
                 color: #FFFFFF;
                 text-align: center;
             }
