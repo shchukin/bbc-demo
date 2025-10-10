@@ -42,7 +42,7 @@
 
 
 .button--secondary {
-    background-color: var(--20pct-tool-tip);
+    background-color: var(--12pct-block);
     color: var(--70pct-text);
 }
 
@@ -86,8 +86,8 @@
 
 .button--smaller {
     height: 48px;
-    padding: 14px 16px;
-    border-radius: 8px;
+    padding: 14px 24px;
+    border-radius: 16px;
 }
 
 

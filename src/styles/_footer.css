@@ -14,19 +14,6 @@
             color: var(--30pct-footer-text-3);
         }
 
-        .footer__note {
-            position: absolute;
-            right: 0;
-            bottom: -16px;
-            width: 435px;
-            padding: 16px;
-            background-color: var(--20pct-tool-tip);
-            border-radius: 16px;
-            font-size: 16px;
-            line-height: 20px;
-            color: var(--70pct-text);
-        }
-
     .footer__secondary {
         margin-top: 24px;
         display: flex;
@@ -35,7 +22,7 @@
         .footer__legalities {
             display: flex;
             align-items: flex-start;
-            gap: 16px;
+            gap: 8px;
         }
 
         .footer__media {
@@ -43,26 +30,54 @@
             gap: 8px;
         }
             .footer__social {
+                position: relative;
                 width: 48px;
                 height: 48px;
-                text-indent: 200%;
-                white-space: nowrap;
-                overflow: hidden;
+            }
+                .footer__social::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+
+                .footer__social--adulthood::after {
+                    background-image: url("../vectors/footer-media/footer-adulthood.svg");
+                }
+
+                .footer__social--telegram::after {
+                    background-image: url("../vectors/footer-media/footer-telegram.svg");
+                }
+
+                .footer__social--youtube::after {
+                    background-image: url("../vectors/footer-media/footer-youtube.svg");
+                }
+
+                .footer__social--instagram::after {
+                    background-image: url("../vectors/footer-media/footer-instagram.svg");
+                    filter: blur(3px);
+                }
+
+
+
+            .footer__note {
+                position: absolute;
+                right: 0;
+                bottom: 100%;
+                margin-bottom: 8px;
+                width: 435px;
+                padding: 32px;
+                background-color: var(--12pct-block);
+                border-radius: 32px 32px 0 32px;
+                font-size: 16px;
+                line-height: 20px;
+                color: var(--70pct-text);
+                display: none;
             }
 
-            .footer__social--adulthood {
-                background-image: url("../vectors/footer-media/footer-adulthood.svg");
-            }
-
-            .footer__social--telegram {
-                background-image: url("../vectors/footer-media/footer-telegram.svg");
-            }
-
-            .footer__social--youtube {
-                background-image: url("../vectors/footer-media/footer-youtube.svg");
-            }
-
-            .footer__social--instagram {
-                background-image: url("../vectors/footer-media/footer-instagram.svg");
-                filter: blur(3px);
+            .footer__social:hover .footer__note {
+                display: block;
             }
