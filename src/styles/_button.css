@@ -1,14 +1,15 @@
 .button {
     vertical-align: top;
-    height: 64px; /* в случае вертикального центрирования, если маленькая иконка внутри без текста */
+    height: 96px; /* в случае вертикального центрирования, если маленькая иконка внутри без текста */
     display: inline-flex;
+    align-items: center;
     justify-content: center;
     gap: 16px;
     border: none;
-    padding: 22px 24px;
+    padding: 41px 24px;
     min-width: 100px;
     background-color: #009EFF;
-    border-radius: 16px;
+    border-radius: 32px;
     font-family: inherit;
     color: #FFFFFF;
     text-align: center;

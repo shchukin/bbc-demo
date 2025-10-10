@@ -3,8 +3,8 @@
     align-items: stretch;
     gap: 4px;
     padding: 2px;
-    background-color: var(--10pct-bg);
-    border-radius: 16px;
+    background-color: var(--7pct-bg-new);
+    border-radius: 32px;
 }
     .switch__tab {
         flex-grow: 1;
@@ -12,9 +12,9 @@
         flex-basis: 0;
         border: none;
         background-color: transparent;
-        padding: 10px 14px;
+        padding: 21px 30px;
         font-family: inherit;
-        border-radius: 15px;
+        border-radius: 31px;
         text-align: left;
         color: #CCCCCC;
         cursor: pointer;
@@ -38,7 +38,7 @@
 
         .switch__value {
             display: block;
-            margin-top: 4px;
+            margin-top: 8px;
             color: #FFFFFF;
             text-align: left;
         }

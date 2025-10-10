@@ -54,11 +54,11 @@
                 .select-course__requisites {
                     margin-top: 24px;
                     font-weight: 500;
-                    color: #666666;
+                    color: var(--50pct-gray-label);
                 }
 
                 .select-course__checks {
-                    margin-top: 16px;
+                    margin-top: 8px;
                     display: flex;
                     flex-direction: column;
                     gap: 4px;
