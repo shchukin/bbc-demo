@@ -15,19 +15,19 @@
         gap: 8px;
     }
         .select-course__column {
-            background-color: var(--15pct-block);
-            border-radius: 24px;
+            background-color: var(--12pct-block);
+            border-radius: 32px;
         }
             .select-course__sub-head {
-                padding: 24px;
+                padding: 32px;
                 display: flex;
                 align-items: center;
                 gap: 8px;
-                border-bottom: 2px solid var(--10pct-bg);
+                border-bottom: 2px solid var(--7pct-bg-new);
             }
 
             .select-course__contains {
-                padding: 24px 24px 48px;
+                padding: 32px 32px 56px;
             }
                 .select-course__item {
                     margin-top: 16px;
@@ -73,7 +73,7 @@
 
                 .select-course__note {
                     margin-top: 16px;
-                    color: #666666;
+                    color: var(--50pct-gray-label);
                     text-align: center;
                 }
 

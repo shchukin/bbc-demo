@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: var(--7pct-bg-new);
     color: #FFFFFF;
     height: 100%;
     -moz-osx-font-smoothing: grayscale;
