@@ -1,8 +1,8 @@
 .work {
     width: 180px;
     height: 180px;
-    background-color: var(--15pct-block);
-    border-radius: 32px;
+    background-color: var(--12pct-block);
+    border-radius: 48px;
     padding: 30px;
     user-select: none;
 }

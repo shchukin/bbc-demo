@@ -19,12 +19,12 @@
 
     .marquee::before {
         right: calc(50% + var(--visible) / 2);
-        background-image: linear-gradient(to left, transparent, #1A1A1A 50%, #1A1A1A);
+        background-image: linear-gradient(to left, transparent, var(--7pct-bg-new) 50%, var(--7pct-bg-new));
     }
 
     .marquee::after {
         left: calc(50% + var(--visible) / 2);
-        background-image: linear-gradient(to right, transparent, #1A1A1A 50%, #1A1A1A);
+        background-image: linear-gradient(to right, transparent, var(--7pct-bg-new) 50%, var(--7pct-bg-new));
     }
 
     .marquee__content {
