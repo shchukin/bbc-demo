@@ -3,7 +3,7 @@
     align-items: stretch;
     padding: 6px 7px;
     border: 2px solid var(--20pct-tool-tip);
-    border-radius: 28px;
+    border-radius: 32px;
 }
     .alt-switch__tab {
         flex-grow: 1;
@@ -11,9 +11,9 @@
         flex-basis: 0;
         border: none;
         background-color: transparent;
-        padding: 12px 16px;
+        padding: 24px 40px;
         font-family: inherit;
-        border-radius: 20px;
+        border-radius: 24px;
         text-align: left;
         white-space: nowrap;
         color: var(--50pct-gray-label);
