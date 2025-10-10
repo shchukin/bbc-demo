@@ -11,13 +11,13 @@
 
         .faq__item:first-child {
             margin-top: 0;
-            border-top-left-radius: 32px;
-            border-top-right-radius: 32px;
+            border-top-left-radius: 48px;
+            border-top-right-radius: 48px;
         }
 
         .faq__item:last-child {
-            border-bottom-left-radius: 32px;
-            border-bottom-right-radius: 32px;
+            border-bottom-left-radius: 48px;
+            border-bottom-right-radius: 48px;
         }
 
         .faq__item:first-child {
@@ -25,7 +25,7 @@
         }
             .faq__question {
                 position: relative;
-                padding: 32px 80px;
+                padding: 36px 80px;
                 font-size: 22px;
                 line-height: 22px;
                 color: #FFFFFF;
@@ -38,11 +38,11 @@
             }
 
             .faq__item:first-child .faq__question {
-                border-top: 8px solid transparent;
+                border-top: 14px solid transparent;
             }
 
             .faq__item:last-child .faq__question {
-                border-bottom: 8px solid transparent;
+                border-bottom: 14px solid transparent;
             }
                 .faq__question::after {
                     content: "";
@@ -52,7 +52,7 @@
                     display: block;
                     width: 24px;
                     height: 24px;
-                    background-color: var(--50pct-gray-label);
+                    background-color: var(--30pct-footer-text-3);
                     background-image: url("../vectors/faq-chevron.svg");
                     border-radius: 8px;
                     transition: transform var(--transition-slide);
