@@ -17,10 +17,12 @@
     white-space: nowrap;
     cursor: pointer;
     user-select: none;
+    transition: padding var(--transition-hover);
 }
 
 .button:hover {
-    background-color: var(--action-color-hover);
+    padding-top: 38px;
+    padding-bottom: 44  px;
 }
 
 .button:active {
@@ -91,6 +93,10 @@
     border-radius: 16px;
 }
 
+.button--smaller:hover {
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
 
 .button--square {
     min-width: 0;
