@@ -212,4 +212,11 @@
        $(this).addClass('tag--current');
     });
 
+
+    /* Куки */
+
+    $('.cookies .button').on('click', function (){
+        $('.cookies').remove();
+    });
+
 })(jQuery);
