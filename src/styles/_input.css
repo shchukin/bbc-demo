@@ -4,9 +4,23 @@
     .input__label {
         position: absolute;
         left: 24px;
-        top: 20px;
+        top: 30px;
+        font-size: 20px;
+        line-height: 20px;
         color: var(--50pct-gray-label);
         pointer-events: none;
+        transition: font-size var(--transition-slide),
+                    top var(--transition-slide);
+    }
+
+    .input__widget:hover ~ .input__label {
+        font-size: 14px;
+    }
+
+    .input__widget:focus-visible ~ .input__label,
+    .input--fill .input__label {
+        font-size: 14px;
+        top: 16px;
     }
 
     .input__widget {
@@ -31,7 +45,7 @@
     }
 
     .input__widget:hover {
-        border-color: #797979;
+        border-color: var(--50pct-gray-label);
     }
 
     .input__widget:focus-visible {
@@ -78,16 +92,20 @@
 
 }
     .input--error .input__widget {
-        color: var(--error);
-        border-color: var(--error);
+        /*color: var(--error);*/
+        /*border-color: var(--error);*/
     }
 
     .input--error .input__widget:hover {
-        border-color: var(--input-border-hover-and-focus);
+        /*border-color: var(--input-border-hover-and-focus);*/
     }
 
     .input--error .input__widget::placeholder {
-        color: var(--error);
+        /*color: var(--error);*/
+    }
+
+    .input--error .input__label {
+        color: var(--red);
     }
 
 

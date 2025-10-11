@@ -32,6 +32,7 @@
     --8pct-black: #141414;
     --yellow: #FFCC6B;
     --blue: #009EFF;
+    --red: #E57375;
 }
 
 @media (350px <= width < 740px) {

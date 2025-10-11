@@ -219,4 +219,17 @@
         $('.cookies').remove();
     });
 
+
+    /* инпуты */
+
+    $('.input__widget').on('focus input blur', function() {
+        var $input = $(this);
+        var $parent = $input.parent('.input');
+        if ($input.val().length > 0) {
+            $parent.addClass('input--fill');
+        } else {
+            $parent.removeClass('input--fill');
+        }
+    });
+
 })(jQuery);
