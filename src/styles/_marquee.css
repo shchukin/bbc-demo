@@ -1,5 +1,5 @@
 .marquee {
-    --visible: 960px; /* ширина видимой части, на которую не распространяется фейдящий градиент */
+    /*--visible: 960px; !* ширина видимой части, на которую не распространяется фейдящий градиент *!*/
 }
 
 .marquee {
@@ -14,17 +14,20 @@
         z-index: 60;
         top: 0;
         bottom: 0;
-        width: calc((100vw - var(--visible)) / 2);
+        width: 50vw;
+        /*width: calc((100vw - var(--visible)) / 2);*/
     }
 
     .marquee::before {
-        right: calc(50% + var(--visible) / 2);
-        background-image: linear-gradient(to left, transparent, var(--7pct-bg-new) 50%, var(--7pct-bg-new));
+        left: 0;
+        /*right: calc(50% + var(--visible) / 2);*/
+        background-image: linear-gradient(to left, transparent, var(--7pct-bg-new));
     }
 
     .marquee::after {
-        left: calc(50% + var(--visible) / 2);
-        background-image: linear-gradient(to right, transparent, var(--7pct-bg-new) 50%, var(--7pct-bg-new));
+        right: 0;
+        /*left: calc(50% + var(--visible) / 2);*/
+        background-image: linear-gradient(to right, transparent, var(--7pct-bg-new));
     }
 
     .marquee__content {
