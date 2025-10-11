@@ -59,13 +59,13 @@
                 }
 
                 .faq__item:first-child .faq__question {
-                    border-top-left-radius: 32px;
-                    border-top-right-radius: 32px;
+                    border-top-left-radius: 48px;
+                    border-top-right-radius: 48px;
                 }
 
                 .faq__item:last-child:not(.faq__item--expanded) .faq__question {
-                    border-bottom-left-radius: 32px;
-                    border-bottom-right-radius: 32px;
+                    border-bottom-left-radius: 48px;
+                    border-bottom-right-radius: 48px;
                 }
 
             .faq__answer {

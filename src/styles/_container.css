@@ -6,11 +6,17 @@
     margin-right: auto;
 }
 
+.container--feedback {
+    /* Здесь ширина специфичная для четырёх сторизов */
+    width: calc(var(--container-width-feedback) + 2 * var(--container-padding));
+}
+
 .container--wide {
     width: 100%;
     min-width: calc(var(--container-width) + 2 * var(--container-padding));
     max-width: calc(var(--container-width-wide) + 2 * var(--container-padding));
 }
+
 
 @media (width < 740px) {
 
