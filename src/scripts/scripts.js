@@ -204,4 +204,12 @@
         $currentItem.toggleClass('faq__item--expanded');
     });
 
+
+    /* Фильтр */
+
+    $('.section-head__tags .tag').on('click', function (){
+       $(this).siblings('.tag--current').removeClass('tag--current');
+       $(this).addClass('tag--current');
+    });
+
 })(jQuery);
