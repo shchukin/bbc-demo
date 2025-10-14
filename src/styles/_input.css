@@ -13,14 +13,14 @@
                     top var(--transition-slide);
     }
 
-    .input__widget:hover ~ .input__label {
-        font-size: 14px;
-    }
-
     .input__widget:focus-visible ~ .input__label,
     .input--fill .input__label {
         font-size: 14px;
         top: 16px;
+    }
+
+    .input__widget:hover ~ .input__label {
+        color: #FFFFFF;
     }
 
     .input__widget {
@@ -46,6 +46,10 @@
 
     .input__widget:hover {
         border-color: var(--50pct-gray-label);
+    }
+
+    .input__widget:hover::placeholder {
+        color: #FFFFFF;
     }
 
     .input__widget:focus-visible {
