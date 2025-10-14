@@ -3,7 +3,6 @@
     height: 180px;
     background-color: var(--12pct-block);
     border-radius: 48px;
-    padding: 30px;
     user-select: none;
 }
     .work img {

@@ -9,11 +9,16 @@
 }
 
 .container--fixed-at-min-width {
+    /* Фиксированная ширина */
+    min-width: 0;
+    max-width: none;
     width: calc(var(--container-width-min) + 2 * var(--container-padding));
 }
 
 .container--feedback {
     /* Здесь ширина специфичная для четырёх сторизов */
+    min-width: 0;
+    max-width: none;
     width: calc(var(--container-width-feedback) + 2 * var(--container-padding));
 }
 

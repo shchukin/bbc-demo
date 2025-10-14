@@ -1,7 +1,7 @@
 .story {
     display: block;
-    margin-left: -70px;
-    margin-right: -70px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
     .story__video {
         vertical-align: top;
@@ -14,5 +14,5 @@
 
 
 .story--pushed {
-    padding-top: 24px;
+    padding-top: 16px;
 }
