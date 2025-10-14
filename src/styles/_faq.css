@@ -85,5 +85,5 @@
 
     .faq__item--expanded .faq__answer {
         display: block;
-        animation: slide-down var(--transition-slide);
+        animation: slide-down var(--transition-show);
     }
