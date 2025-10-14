@@ -58,7 +58,7 @@
             border-radius: 64px;
         }
             .details__pre-heading {
-                color: #808080;
+                color: var(--50pct-gray-label);
             }
 
             .details__sub-heading {
@@ -85,10 +85,35 @@
             background-color: var(--7pct-bg-new);
             padding: 96px 144px;
             border-radius: 64px;
-            display: flex;
-            flex-direction: column;
-            gap: 32px;
         }
+            .details__pre-heading {
+
+            }
+
+            .details__chapters-heading {
+                margin-top: 16px;
+                margin-bottom: 0;
+            }
+
+            .details__description {
+                margin-top: 16px;
+                max-width: 768px;
+            }
+
+            .details__tag {
+                margin-top: 32px;
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                max-width: 768px;
+            }
+
+            .details__chapters-list {
+                margin-top: 72px;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+            }
 
         .details__footer {
             margin-top: 8px;
