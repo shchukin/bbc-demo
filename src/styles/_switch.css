@@ -36,6 +36,11 @@
             color: var(--50pct-gray-label);
         }
 
+        .switch__tab--current .switch__heading,
+        .switch__tab--current:hover .switch__heading {
+            color: #FFFFFF;
+        }
+
         .switch__value {
             display: block;
             margin-top: 8px;
