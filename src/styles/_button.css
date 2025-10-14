@@ -17,12 +17,12 @@
     white-space: nowrap;
     cursor: pointer;
     user-select: none;
-    transition: padding var(--transition-hover);
+    transition: padding var(--transition-slide);
 }
 
 .button:hover {
-    padding-top: 38px;
-    padding-bottom: 44  px;
+    padding-top: 36px;
+    padding-bottom: 46px;
 }
 
 .button:active {
