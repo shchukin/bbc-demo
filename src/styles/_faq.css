@@ -56,7 +56,6 @@
                     background-repeat: no-repeat;
                     background-position: center center;
                     border-radius: 16px;
-                    transition: transform var(--transition-slide);
                 }
 
                 .faq__item:first-child .faq__question {
