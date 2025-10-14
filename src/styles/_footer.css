@@ -67,14 +67,15 @@
                 position: absolute;
                 right: 0;
                 bottom: 100%;
-                margin-bottom: 8px;
-                width: 435px;
+                margin-bottom: 72px; /* Не слишком ли много? Изначально было 8px */
                 padding: 32px;
                 background-color: var(--12pct-block);
+                box-shadow: var(--drop-shad-48);
                 border-radius: 32px 32px 0 32px;
                 font-size: 16px;
                 line-height: 20px;
-                color: var(--70pct-text);
+                color: var(--50pct-gray-label);
+                white-space: nowrap;
                 display: none;
             }
 

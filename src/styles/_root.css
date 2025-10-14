@@ -8,14 +8,15 @@
     --transition-show: 1200ms var(--ease-out-quint);
     --image-fallback: #000000;
     --container-padding: 40px;
-    --container-width: 1120px;
-    --container-width-wide: 1312px;
+    --container-width-min: 1120px;
+    --container-width-max: 1312px;
     --container-width-feedback: 1060px;
     --action-color: #0D7FC5;
     --action-color-hover: #2FA5ED;
     --input-border: #B3B3B3;
     --input-border-hover-and-focus: var(--yellow);
     --placeholder-color: var(--50pct-gray-label);
+    --drop-shad-48: 0 0 48px rgb(0 0 0 / 25%);
     --disabled-background: #F6F6F6;
     --disabled-color: #999999;
     --error: #FF0033;
