@@ -103,3 +103,6 @@
                 color: #FFFFFF;
                 text-align: center;
             }
+                .stage__footer .mentor {
+                    display: inline-flex;
+                }
