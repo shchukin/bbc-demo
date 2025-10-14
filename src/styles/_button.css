@@ -79,12 +79,11 @@
 
 .button--transparent {
     background-color: transparent;
-    color: var(--50pct-gray-label);
+    color: #FFFFFF;
 }
 
 .button--transparent:hover {
     background-color: transparent;
-    color: var(--50pct-gray-label);
 }
 
 .button--smaller {

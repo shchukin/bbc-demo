@@ -1,8 +1,8 @@
 .chapter {
     display: grid;
-    grid-template-columns: 384px 288px;
+    grid-template-columns: 288px 480px;
     align-items: center;
-    gap: 96px;
+    gap: 64px;
 }
     .chapter__body {
 
@@ -18,8 +18,6 @@
 
         .chapter__description {
             margin-top: 8px;
-            font-size: 18px;
-            line-height: 22px;
             color: #808080;
         }
 

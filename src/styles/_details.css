@@ -87,7 +87,7 @@
             border-radius: 64px;
             display: flex;
             flex-direction: column;
-            gap: 64px;
+            gap: 32px;
         }
 
         .details__footer {
