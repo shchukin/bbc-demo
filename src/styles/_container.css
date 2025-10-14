@@ -8,6 +8,10 @@
     margin-right: auto;
 }
 
+.container--fixed-at-min-width {
+    width: calc(var(--container-width-min) + 2 * var(--container-padding));
+}
+
 .container--feedback {
     /* Здесь ширина специфичная для четырёх сторизов */
     width: calc(var(--container-width-feedback) + 2 * var(--container-padding));
