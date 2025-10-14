@@ -46,7 +46,7 @@
 
 .button--secondary {
     background-color: var(--12pct-block);
-    color: var(--70pct-text);
+    color: var(--50pct-gray-label);
 }
 
 .button--secondary:hover {
