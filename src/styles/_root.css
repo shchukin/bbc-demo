@@ -16,7 +16,6 @@
     --input-border: #B3B3B3;
     --input-border-hover-and-focus: var(--yellow);
     --placeholder-color: var(--50pct-gray-label);
-    --drop-shad-48: 0 0 48px rgb(0 0 0 / 25%);
     --disabled-background: #F6F6F6;
     --disabled-color: #999999;
     --error: #FF0033;
