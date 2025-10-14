@@ -1,0 +1,90 @@
+.code {
+    position: relative;
+    width: 432px;
+    background-color: var(--12pct-block);
+    border-radius: 48px;
+}
+    .code__preview {
+
+    }
+        .code__image {
+            vertical-align: top;
+            background-color: var(--image-fallback);
+            border-radius: 48px;
+        }
+
+    .code__body {
+        padding: 24px 48px 48px;
+    }
+        .code__heading {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .code__description {
+            margin-top: 8px;
+        }
+
+        .code__field {
+            margin-top: 16px;
+            position: relative;
+        }
+            .code__input {
+                padding: 41px 60px;
+                background-color: var(--50pct-gray-label);
+                border-radius: 32px;
+                color: #FFFFFF;
+                text-align: center;
+            }
+
+            .code__copy {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 80px;
+                height: 96px;
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                cursor: pointer;
+            }
+                .code__icon {
+                    stroke: var(--70pct-text);
+                }
+
+                .code__copy:hover .code__icon {
+                    stroke: #FFFFFF;
+                }
+
+            .code__completion {
+
+            }
+                .code__completion .button {
+                    width: 100%;
+                }
+
+        .code__note {
+            margin-top: 16px;
+            color: var(--50pct-gray-label);
+            text-align: center;
+        }
+
+    .code__close {
+        position: absolute;
+        right: 32px;
+        top: 32px;
+    }
+        .code__close .button {
+            border-radius: 16px;
+        }
+
+
+
+
+@media (width < 740px) {
+
+    .code {
+        width: 100%;
+        max-width: 440px;
+    }
+}

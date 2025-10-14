@@ -1,5 +1,6 @@
 (function($) {
 
+
     /* Баблы */
 
     /* Показ (тап на смартфонах) */
@@ -56,6 +57,20 @@
         event.preventDefault();
         $.magnificPopup.close();
     });
+
+
+    setTimeout(function() {
+        $.magnificPopup.open({
+            removalDelay: 200,
+            showCloseBtn: false,
+            items: {
+                src: '#code'
+            },
+            type: 'inline'
+        });
+    }, 1000);
+
+
 
     /* Карусели */
 
