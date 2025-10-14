@@ -6,7 +6,7 @@
     --transition-hover: 100ms ease;
     --transition-slide: 500ms var(--ease-out-quint);
     --transition-show: 1200ms var(--ease-out-quint);
-    --image-fallback: #000000;
+    --image-fallback: var(--50pct-gray-label);
     --container-padding: 40px;
     --container-width-min: 1120px;
     --container-width-max: 1312px;

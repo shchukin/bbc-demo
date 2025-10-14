@@ -1,0 +1,18 @@
+.comment {
+    padding: 8px;
+    background-color: var(--12pct-block);
+    border-radius: 40px 40px 40px 0;
+}
+    .comment__avatar {
+        vertical-align: top;
+        background-color: var(--image-fallback);
+        border-radius: 50%;
+    }
+
+    .comment .bubble {
+        position: absolute;
+        left: 100%;
+        bottom: 0;
+        margin-left: 8px;
+        border-bottom-left-radius: 0;
+    }
