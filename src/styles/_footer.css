@@ -67,7 +67,7 @@
                 position: absolute;
                 right: 0;
                 bottom: 100%;
-                margin-bottom: 72px; /* Не слишком ли много? Изначально было 8px */
+                margin-bottom: 8px;
                 padding: 32px;
                 background-color: var(--12pct-block);
                 box-shadow: var(--drop-shad-48);
