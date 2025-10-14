@@ -58,17 +58,17 @@
         $.magnificPopup.close();
     });
 
-    //
-    // setTimeout(function() {
-    //     $.magnificPopup.open({
-    //         removalDelay: 200,
-    //         showCloseBtn: false,
-    //         items: {
-    //             src: '#code'
-    //         },
-    //         type: 'inline'
-    //     });
-    // }, 1000);
+
+    setTimeout(function() {
+        $.magnificPopup.open({
+            removalDelay: 200,
+            showCloseBtn: false,
+            items: {
+                src: '#code'
+            },
+            type: 'inline'
+        });
+    }, 1000);
 
 
 

@@ -59,12 +59,14 @@
     color: #000000;
 }
 
+
 .button--gray {
     background-color: var(--50pct-gray-label);
 }
 
-.button--gray:hover {
-    background-color: #A2A2A2;
+
+.button--semi-transparent {
+    background-color: var(--90pct-on-color-bg);
 }
 
 
