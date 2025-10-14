@@ -5,19 +5,13 @@
 
     }
         .faq__item {
-            margin-top: 2px;
-            background-color: var(--15pct-block);
+            margin-top: 8px;
+            background-color: var(--12pct-block);
+            border-radius: 48px;
         }
 
         .faq__item:first-child {
             margin-top: 0;
-            border-top-left-radius: 48px;
-            border-top-right-radius: 48px;
-        }
-
-        .faq__item:last-child {
-            border-bottom-left-radius: 48px;
-            border-bottom-right-radius: 48px;
         }
 
         .faq__item:first-child {
@@ -25,7 +19,7 @@
         }
             .faq__question {
                 position: relative;
-                padding: 36px 80px;
+                padding: 48px;
                 font-size: 22px;
                 line-height: 22px;
                 color: #FFFFFF;
@@ -36,25 +30,32 @@
             .faq__question:hover {
 
             }
+                .faq__index {
+                    width: fit-content;
+                    padding: 16px;
+                    background-color: var(--30pct-footer-text-3);
+                    border-radius: 16px;
+                }
 
-            .faq__item:first-child .faq__question {
-                border-top: 14px solid transparent;
-            }
+                .faq__sub-heading {
+                    margin-top: 16px;
+                    margin-bottom: 0;
+                }
 
-            .faq__item:last-child .faq__question {
-                border-bottom: 14px solid transparent;
-            }
                 .faq__question::after {
                     content: "";
                     position: absolute;
                     right: 48px;
-                    top: 31px;
+                    top: 48px;
                     display: block;
-                    width: 24px;
-                    height: 24px;
+                    width: 48px;
+                    height: 48px;
                     background-color: var(--30pct-footer-text-3);
                     background-image: url("../vectors/faq-chevron.svg");
-                    border-radius: 8px;
+                    background-size: 24px 24px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    border-radius: 16px;
                     transition: transform var(--transition-slide);
                 }
 
@@ -69,9 +70,10 @@
                 }
 
             .faq__answer {
-                margin-top: -4px;
-                padding: 0 80px 32px;
+                margin-top: -24px;
+                padding: 0 48px 48px;
                 color: var(--50pct-gray-label);
+                max-width: 992px;
                 display: none;
             }
 

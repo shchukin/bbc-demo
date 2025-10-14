@@ -1,34 +1,34 @@
 .text {
-
+    font-weight: 500;
 }
 
 .text--h1 {
-    font-weight: 500;
     font-size: 56px;
     line-height: 50px;
     letter-spacing: -1.1px;
 }
 
 .text--h2 {
-    font-weight: 500;
     font-size: 40px;
     line-height: 40px;
 }
 
 .text--h3 {
-    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.text--h4 {
     font-size: 22px;
-    line-height: 26px;
+    line-height: 28px;
 }
 
 .text--h3-block-name {
-    font-weight: 500;
     font-size: 26px;
     line-height: 30px;
 }
 
 .text--name-block {
-    font-weight: 500;
     font-size: 26px;
     line-height: 30px;
 }
@@ -42,49 +42,41 @@
 }
 
 .text--main {
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
 }
 
 .text--small {
-    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
 }
 
 .text--btn-input-logo {
-    font-weight: 500;
     font-size: 20px;
     line-height: 20px;
 }
 
 .text--hashtag {
-    font-weight: 500;
     font-size: 16px;
     line-height: 16px;
 }
 
 .text--input-label {
-    font-weight: 500;
     font-size: 14px;
     line-height: 14px;
 }
 
 .text--additional {
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
 }
 
 .text--price {
-    font-weight: 500;
     font-size: 26px;
     line-height: 26px;
 }
 
 .text--faq-text {
-    font-weight: 500;
     font-size: 22px;
     line-height: 26px;
 }
