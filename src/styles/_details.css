@@ -1,6 +1,6 @@
 .details {
     position: relative;
-    width: 960px;
+    width: 1120px;
 }
     .details__video {
         position: absolute;
@@ -50,54 +50,65 @@
         }
 
     .details__body {
-        padding: 48px 96px;
         position: relative;
-        background-color: #FFFFFF;
-        border-radius: 48px;
-        color: #1A1A1A;
     }
-        .details__pre-heading {
-            color: #808080;
+        .details__summary {
+            padding: 96px 144px;
+            background-color: var(--7pct-bg-new);
+            border-radius: 64px;
         }
+            .details__pre-heading {
+                color: #808080;
+            }
 
-        .details__sub-heading {
-            margin-top: 16px;
-            color: #2E2F33;
-        }
+            .details__sub-heading {
+                margin-top: 16px;
+                color: #FFFFFF;
+            }
 
-        .details__description {
-            margin-top: 24px;
-            color: #999999;
-        }
+            .details__description {
+                margin-top: 16px;
+                max-width: 768px;
+                color: #FFFFFF;
+            }
 
-        .details__note {
-            margin-top: 32px;
-            padding: 16px;
-            background-color: #F2F2F2;
-            border-radius: 16px;
-            color: #4D4D4D;
-        }
+            .details__note {
+                margin-top: 32px;
+                padding: 24px 32px;
+                background-color: #1F1F1F;
+                border-radius: 32px;
+                color: var(--70pct-text);
+            }
 
         .details__chapters {
-            margin-top: 80px;
+            margin-top: 8px;
+            background-color: var(--7pct-bg-new);
+            padding: 96px 144px;
+            border-radius: 64px;
             display: flex;
             flex-direction: column;
             gap: 64px;
         }
 
-        .details__submit {
-            margin-top: 80px;
+        .details__footer {
+            margin-top: 8px;
+            padding: 32px;
+            background-color: var(--7pct-bg-new);
+            border-radius: 64px;
         }
-            .details__submit .button {
-                width: 100%;
-            }
+            .details__submit {
 
-        .details__back {
-
-        }
-            .details__back .button {
-                width: 100%;
             }
+                .details__submit .button {
+                    width: 100%;
+                }
+
+            .details__back {
+
+            }
+                .details__back .button {
+                    width: 100%;
+                }
 
     .details__close {
         position: absolute;
