@@ -1,6 +1,7 @@
 .mentor {
     display: flex;
     align-items: center;
+    gap: 4px;
     width: fit-content;
     padding: 4px 12px 4px 4px;
     background-color: #FFFFFF;
