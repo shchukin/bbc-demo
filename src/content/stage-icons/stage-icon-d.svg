@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_131_200)">
+<rect width="16" height="16" fill="#959595"/>
+<rect x="16" y="16" width="16" height="16" fill="#959595"/>
+<rect x="16" width="16" height="16" fill="#404040"/>
+<rect y="16" width="16" height="16" fill="#404040"/>
+<rect y="32" width="16" height="16" fill="#959595"/>
+<rect x="16" y="48" width="16" height="16" fill="#959595"/>
+<rect x="16" y="32" width="16" height="16" fill="#404040"/>
+<rect y="48" width="16" height="16" fill="#404040"/>
+<rect x="32" width="16" height="16" fill="#959595"/>
+<rect x="48" y="16" width="16" height="16" fill="#959595"/>
+<rect x="48" width="16" height="16" fill="#404040"/>
+<rect x="32" y="16" width="16" height="16" fill="#404040"/>
+<rect x="32" y="32" width="16" height="16" fill="#959595"/>
+<rect x="48" y="48" width="16" height="16" fill="#959595"/>
+<rect x="48" y="32" width="16" height="16" fill="#404040"/>
+<rect x="32" y="48" width="16" height="16" fill="#404040"/>
+</g>
+<defs>
+<clipPath id="clip0_131_200">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

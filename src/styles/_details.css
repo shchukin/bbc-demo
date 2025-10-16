@@ -1,6 +1,6 @@
 .details {
     position: relative;
-    width: 1120px;
+    width: var(--container-width-min);
 }
     .details__video {
         position: absolute;

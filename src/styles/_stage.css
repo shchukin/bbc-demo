@@ -1,108 +1,93 @@
 .stage {
     position: relative;
     min-height: 100svh;
-    border: 16px solid transparent;
     display: flex;
     flex-direction: column;
-    margin-bottom: -16px;
+    align-items: center;
+    justify-content: center;
 }
-    .stage__video {
+    .stage__logo {
         position: absolute;
-        inset: 0;
-        width: 100%;
-        height: 100%;
-        background-color: var(--image-fallback);
-        border-radius: 16px;
-        object-fit: cover;
-    }
-
-    .stage__overlay {
-        position: relative;
-        flex-grow: 1;
+        left: 48px;
+        top: 70px;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 16px;
+        align-items: center;
+        color: #FFFFFF;
     }
-        .stage__overlay::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background-image: linear-gradient(transparent, #1A1A1A);
+
+    .stage__trailer-handler {
+        position: absolute;
+        right: 48px;
+        top: 48px;
+        display: block;
+        width: 96px;
+        height: 64px;
+        background-image: url("../images/trailer-handler/trailer-handler.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    @media (min-resolution: 1.2dppx) {
+        .stage__trailer-handler {
+            background-image: url("../images/trailer-handler/trailer-handler@2x.png");
+        }
+    }
+
+    .stage__contains {
+
+    }
+        .stage__pre-heading {
+            color: var(--50pct-gray-label);
+            text-align: center;
         }
 
-        .stage__head {
-            position: relative;
-            padding: 8px 16px;
-            display: flex;
-            align-items: stretch;
-            justify-content: space-between;
+        .stage__heading {
+            margin-top: 16px;
+            font-size: 56px;
+            line-height: 56px;
+            text-align: center;
+            color: var(--50pct-gray-label);
         }
-            .stage__logo {
-                display: flex;
-                align-items: center;
-                color: #FFFFFF;
-            }
-
-            .stage__trailer-handler {
-                display: block;
-                width: 96px;
-                height: 64px;
-                background-image: url("../images/trailer-handler/trailer-handler.png");
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center center;
-                text-indent: 200%;
-                white-space: nowrap;
-                overflow: hidden;
-            }
-
-            @media (min-resolution: 1.2dppx) {
-                .stage__trailer-handler {
-                    background-image: url("../images/trailer-handler/trailer-handler@2x.png");
-                }
-            }
-
-        .stage__contains {
-            position: relative;
-            padding-bottom: 32px;
-        }
-            .stage__crowd {
-                width: fit-content;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            .stage__heading {
-                margin-top: 8px;
-                text-align: center;
-                color: #FFFFFF;
-            }
-
-            .stage__note {
-                margin-top: 16px;
-                color: #FFFFFF;
-                text-align: center;
-            }
-
-            .stage__actions {
-                margin-top: 32px;
-                margin-left: auto;
-                margin-right: auto;
+            .stage__line {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                gap: 8px;
+                gap: 24px;
             }
-                .stage__actions .button:not(.button--square) {
-                    width: 384px;
+                .stage__product {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    color: #FFFFFF;
+                }
+                    .stage__icon {
+
+                    }
+
+                    .stage__icon + .stage__icon {
+                        margin-left: -8px;
+                    }
+
+        .stage__actions {
+            margin-top: 32px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+            .stage__begins {
+                flex-grow: 1;
+            }
+                .stage__begins .button {
+                    width: 100%;
                 }
 
-            .stage__footer {
-                position: relative;
-                color: #FFFFFF;
-                text-align: center;
+            .stage__telegram {
+                flex-shrink: 0;
             }
-                .stage__footer .mentor {
-                    display: inline-flex;
-                }

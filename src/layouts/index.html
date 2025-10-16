@@ -64,20 +64,143 @@
 
         <div class="cut-carousel-demo-only">
             <div class="stage">
-                <video class="stage__video" src="../content/stage/stage.mp4" autoplay playsinline muted loop preload="auto"></video>
-                <div class="stage__overlay">
-                    <div class="stage__head">
-                        <div class="stage__logo text text--btn-input-logo">Бест Блендер Курс</div>
-                        <a class="stage__trailer-handler" href="#">Трейлер</a>
+                <div class="stage__logo text text--btn-input-logo">
+                    Бест Блендер Курс
+                </div>
+                <a class="stage__trailer-handler" href="#">
+                    Трейлер
+                </a>
+                <div class="stage__contains container">
+                    <div class="stage__pre-heading text text--label">
+                        Чем мы занимаемся
                     </div>
-                    <div class="stage__contains container">
-                        <div class="stage__heading text text--h1">
-                            <span class="stage__highlight">Тысячи студентов</span><br> полюбили три-дэ графику<br> после наших курсов
+                    <h1 class="stage__heading text text--h1">
+                        <div class="stage__line">
+                            Обучаем
+                            <span class="stage__product">
+                                <img class="stage__icon"
+                                     src="../content/stage-icons/stage-icon-a.svg"
+                                     width="64"
+                                     height="64"
+                                     alt=""
+                                >
+                                <img class="stage__icon"
+                                     src="../content/stage-icons/stage-icon-b.svg"
+                                     width="64"
+                                     height="64"
+                                     alt=""
+                                >
+                            </span>
+                            Прокачиваем
+                            <span class="stage__product">
+                                <img class="stage__icon"
+                                     srcset="../content/stage-icons/stage-icon-c@2x.png 1.2x"
+                                     src="../content/stage-icons/stage-icon-c@1x.png"
+                                     width="68"
+                                     height="64"
+                                     alt=""
+                                >
+                                моделинг,
+                            </span>
                         </div>
-                        <div class="stage__note text text--additional">
-                            Обучаем Blender. Даем знания, а не дипломы
+                        <div class="stage__line">
+                            <span class="stage__product">
+                                <img class="stage__icon"
+                                     src="../content/stage-icons/stage-icon-d.svg"
+                                     width="64"
+                                     height="64"
+                                     alt=""
+                                >
+                                текстуринг,
+                            </span>
+                            <span class="stage__product">
+                                <img class="stage__icon"
+                                     srcset="../content/stage-icons/stage-icon-e@2x.png 1.2x"
+                                     src="../content/stage-icons/stage-icon-e@1x.png"
+                                     width="64"
+                                     height="64"
+                                     alt=""
+                                >
+                                риггинг,
+                            </span>
+                            <span class="stage__product">
+                                <img class="stage__icon"
+                                     srcset="../content/stage-icons/stage-icon-f@2x.png 1.2x"
+                                     src="../content/stage-icons/stage-icon-f@1x.png"
+                                     width="64"
+                                     height="64"
+                                     alt=""
+                                >
+                                анимацию,
+                            </span>
                         </div>
-                        <div class="stage__actions">
+                        <div class="stage__line">
+                            <div class="stage__product">
+                                и
+                                <img class="stage__icon"
+                                     src="../content/stage-icons/stage-icon-g.svg"
+                                     width="64"
+                                     height="64"
+                                     alt=""
+                                >
+                                персонажей.
+                            </div>
+                            Учим на примерах
+                        </div>
+                        <div class="stage__line">
+                            из реальных
+                            <span class="stage__product">
+                                <img class="stage__icon"
+                                     srcset="../content/stage-icons/stage-icon-h@2x.png 1.2x"
+                                     src="../content/stage-icons/stage-icon-h@1x.png"
+                                     width="96"
+                                     height="64"
+                                     alt=""
+                                >
+                                проектов.
+                            </span>
+                            Делаем
+                            <span class="stage__product">
+                                <img class="stage__icon"
+                                     srcset="../content/stage-icons/stage-icon-i@2x.png 1.2x"
+                                     src="../content/stage-icons/stage-icon-i@1x.png"
+                                     width="57"
+                                     height="64"
+                                     alt=""
+                                >
+                            </span>
+                        </div>
+                        <div class="stage__line">
+                            доступным
+                            <span class="stage__product">
+                                не только для
+                                 <img class="stage__icon"
+                                      srcset="../content/stage-icons/stage-icon-j@2x.png 1.2x"
+                                      src="../content/stage-icons/stage-icon-j@1x.png"
+                                      width="64"
+                                      height="64"
+                                      alt=""
+                                 >
+                                гиков
+                            </span>
+                        </div>
+                        <div class="stage__line">
+                            Проект
+                            <span class="stage__product">
+                                 <img class="stage__icon"
+                                      srcset="../content/stage-icons/stage-icon-k@2x.png 1.2x"
+                                      src="../content/stage-icons/stage-icon-k@1x.png"
+                                      width="64"
+                                      height="64"
+                                      alt=""
+                                 >
+                                Мэд Рэббита
+                            </span>
+                            и его друзей
+                        </div>
+                    </h1>
+                    <div class="stage__actions">
+                        <div class="stage__begins">
                             <a class="button text text--btn-input-logo" href="#">
                                 Начать обучение
                                 <svg class="button__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -85,26 +208,14 @@
                                     <path d="M18.293 11.293C18.6835 10.9024 19.3165 10.9024 19.707 11.293C20.0976 11.6835 20.0976 12.3165 19.707 12.707L12.707 19.707C12.3165 20.0976 11.6835 20.0976 11.293 19.707L4.29297 12.707C3.90245 12.3165 3.90245 11.6835 4.29297 11.293C4.68349 10.9024 5.31651 10.9024 5.70703 11.293L12 17.5859L18.293 11.293Z"/>
                                 </svg>
                             </a>
+                        </div>
+                        <div class="stage__telegram">
                             <a class="button button--square button--gray" href="#">
                                 <svg class="button__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M19.9938 6.3886C19.7721 9.19961 18.8126 16.0211 18.3244 19.1695C18.1179 20.5017 17.7111 20.9484 17.3175 20.9921C16.462 21.0871 15.8122 20.3099 14.9835 19.6544C13.6867 18.6288 12.9541 17.9903 11.6954 16.9895C10.2407 15.8329 11.1837 15.1974 12.0127 14.158C12.2297 13.8861 15.9996 9.74884 16.0724 9.37351C16.0816 9.32656 16.0903 9.15129 16.0039 9.05925C15.9175 8.96721 15.7907 8.9984 15.6988 9.02341C15.5688 9.05906 13.4972 10.7112 9.48412 13.9797C8.89617 14.4668 8.36358 14.7042 7.88636 14.6918C7.36028 14.6781 6.34836 14.3329 5.59605 14.0378C4.67337 13.676 3.94001 13.4846 4.00388 12.87C4.03715 12.5499 4.40252 12.2225 5.09998 11.888C9.39515 9.63008 12.2593 8.14149 13.6923 7.42218C17.784 5.3687 18.6341 5.01201 19.1883 5.00011C19.3102 4.99767 19.5827 5.03409 19.7593 5.20692C19.8767 5.33003 19.9515 5.50183 19.969 5.68833C19.9989 5.91991 20.0072 6.15479 19.9938 6.3886Z"/>
                                 </svg>
                             </a>
                         </div>
-                    </div>
-                    <div class="stage__footer text text--hashtag">
-                        Проект
-                        <div class="mentor text text--hashtag">
-                            <img class="mentor__avatar"
-                                 srcset="../temp/mentors/mentor-b@2x.jpg 2x"
-                                 src="../temp/mentors/mentor-b.jpg"
-                                 width="48"
-                                 height="48"
-                                 alt=""
-                            >
-                            Мэд Рэббита
-                        </div>
-                        и его друзей
                     </div>
                 </div>
             </div>
