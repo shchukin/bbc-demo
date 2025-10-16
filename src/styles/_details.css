@@ -121,7 +121,7 @@
 
         .details__footer {
             margin-top: 8px;
-            padding: 32px;
+            padding: 32px 32px 16px;
             background-color: var(--7pct-bg-new);
             border-radius: 64px;
         }
