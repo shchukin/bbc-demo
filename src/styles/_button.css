@@ -61,7 +61,12 @@
 
 
 .button--gray {
-    background-color: var(--50pct-gray-label);
+    background-color: var(--90pct-on-color-bg);
+}
+
+
+.button--dark-gray {
+    background-color: var(--20pct-tool-tip);
 }
 
 

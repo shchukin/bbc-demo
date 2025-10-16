@@ -47,25 +47,38 @@
 
         .stage__heading {
             margin-top: 16px;
+            margin-bottom: 0;
             font-size: 56px;
-            line-height: 56px;
+            line-height: 64px !important;
             text-align: center;
             color: var(--50pct-gray-label);
         }
             .stage__line {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 24px;
+
             }
+                .stage__highlight {
+                    color: #FFFFFF;
+                }
+
                 .stage__product {
-                    display: flex;
-                    align-items: center;
+                    margin-left: 12px;
+                    display: inline-flex;
+                    vertical-align: top;
+                    align-items: flex-start;
                     gap: 16px;
                     color: #FFFFFF;
                 }
-                    .stage__icon {
 
+                .stage__product--less-margin {
+                    margin-left: 0;
+                }
+
+                .stage__product--margin-on-right {
+                    margin-right: 18px;
+                }
+                    .stage__icon {
+                        position: relative;
+                        top: 2px;
                     }
 
                     .stage__icon + .stage__icon {
@@ -73,9 +86,10 @@
                     }
 
         .stage__actions {
-            margin-top: 32px;
+            margin-top: 48px;
             margin-left: auto;
             margin-right: auto;
+            max-width: var(--container-width-min);
             display: flex;
             align-items: center;
             justify-content: center;
