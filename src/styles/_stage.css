@@ -56,11 +56,11 @@
                 }
 
                 .stage__product {
-                    margin-left: 12px;
+                    margin-left: 4px;
                     display: inline-flex;
                     vertical-align: top;
                     align-items: flex-start;
-                    gap: 16px;
+                    gap: 8px;
                     color: #FFFFFF;
                 }
 
@@ -77,7 +77,7 @@
                     }
 
                     .stage__icon + .stage__icon {
-                        margin-left: -8px;
+
                     }
 
         .stage__actions {
