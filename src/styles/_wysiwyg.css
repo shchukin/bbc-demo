@@ -69,4 +69,7 @@
 }
 
 
-
+.wysiwyg ul,
+.wysiwyg ol {
+    padding-left: 20px;
+}
