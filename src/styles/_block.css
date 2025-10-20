@@ -37,12 +37,6 @@
             color: #1A1A1A;
         }
 
-        .block__mentors {
-            position: absolute;
-            right: 24px;
-            top: 24px;
-        }
-
         .block__tags {
             margin-top: auto;
             display: flex;
