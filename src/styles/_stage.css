@@ -71,6 +71,11 @@
                 .stage__product--margin-on-right {
                     margin-right: 18px;
                 }
+
+                .stage__product--underlined {
+                    text-decoration: 3px underline currentColor;
+                    text-underline-offset: 10px;
+                }
                     .stage__icon {
                         position: relative;
                         top: 2px;
