@@ -45,12 +45,10 @@
 
         .details__explainer {
             position: absolute;
+            bottom: 0;
             left: 0;
             right: 0;
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 720px;
-            bottom: 16px;
+            padding: 16px var(--inner-modal-padding);
             color: var(--50pct-transparent-white);
             text-align: center;
         }
@@ -59,7 +57,7 @@
         position: relative;
     }
         .details__summary {
-            padding: 96px 144px;
+            padding: 96px var(--inner-modal-padding);
             background-color: var(--7pct-bg-new);
             border-radius: 64px;
         }

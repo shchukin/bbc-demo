@@ -35,6 +35,7 @@
     --yellow: #FFCC6B;
     --blue: #009EFF;
     --red: #E57375;
+    --inner-modal-padding: 144px;
 }
 
 @media (350px <= width < 740px) {
