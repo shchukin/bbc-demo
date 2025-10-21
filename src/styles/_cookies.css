@@ -1,27 +1,44 @@
 .cookies {
     position: fixed;
     z-index: 100;
-    left: 0;
-    right: 0;
-    bottom: 32px;
-    margin: auto;
-    width: 752px;
-    display: flex;
-    align-items: center;
+    right: 48px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 320px;
     gap: 16px;
-    padding: 24px 24px 24px 32px;
+    padding: 32px;
     background-color: #FFFFFF;
     color: var(--15pct-block);
     border-radius: 32px;
 }
     .cookies__message {
-        flex-grow: 1;
+
     }
 
     .cookies__action {
-        width: 125px;
-        flex-shrink: 0;
+        margin-top: 24px;
     }
         .cookies__action .button {
             width: 100%;
         }
+
+
+
+@media (1500px <= width) {
+
+    .cookies {
+        top: auto;
+        bottom: 48px;
+        transform: none;
+    }
+        .cookies__message {
+
+        }
+
+        .cookies__action {
+
+        }
+            .cookies__action .button {
+
+            }
+}

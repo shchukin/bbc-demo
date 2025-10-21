@@ -1,0 +1,10 @@
+.main-actions {
+    padding: 8px;
+    background-color: var(--7pct-bg-new);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 40px;
+    width: 720px;
+}

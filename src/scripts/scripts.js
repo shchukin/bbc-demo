@@ -268,4 +268,21 @@
         }
     });
 
+
+    /* flying panel */
+
+    const $flyingPanel = $('.flying-panel');
+
+    function checkPanelVisibility() {
+        if ($(window).scrollTop() > 1000) {
+            $flyingPanel.addClass('flying-panel--visible');
+        } else {
+            $flyingPanel.removeClass('flying-panel--visible');
+        }
+    }
+
+
+    $(window).on('scroll', checkPanelVisibility);
+    $(document).ready(checkPanelVisibility);
+
 })(jQuery);
