@@ -87,7 +87,7 @@
         .details__chapters {
             margin-top: 8px;
             background-color: var(--7pct-bg-new);
-            padding: 96px 144px 200px;
+            padding: 96px 144px 96px;
             border-radius: 64px;
         }
             .details__pre-heading {
@@ -143,10 +143,10 @@
                 }
 
     .details__close {
-        position: absolute;
-        left: 100%;
-        margin-left: 16px;
-        top: 0;
+        position: fixed;
+        left: 50%;
+        margin-left: calc(560px + 16px);
+        top: 48px;
     }
         .details__close .button {
             border-radius: 16px;

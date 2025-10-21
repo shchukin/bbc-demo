@@ -1,9 +1,9 @@
 .flying-panel {
     position: fixed;
-    z-index: 100;
+    z-index: 3100;
     left: 0;
     right: 0;
-    bottom: 48px;
+    bottom: 24px;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
