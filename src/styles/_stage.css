@@ -77,8 +77,8 @@
                         top: 2px;
                     }
 
-                    .stage__icon + .stage__icon {
-
+                    .stage__icon--video {
+                        border-radius: 16px;
                     }
 
         .stage__actions {
