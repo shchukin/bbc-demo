@@ -119,29 +119,6 @@
                 gap: 32px;
             }
 
-        .details__footer {
-            position: fixed;
-            bottom: 48px;
-            left: 0;
-            right: 0;
-            margin-left: auto;
-            margin-right: auto;
-            width: 720px;
-        }
-            .details__submit {
-
-            }
-                .details__submit .button {
-                    width: 100%;
-                }
-
-            .details__back {
-
-            }
-                .details__back .button {
-                    width: 100%;
-                }
-
     .details__close {
         position: fixed;
         left: 50%;
