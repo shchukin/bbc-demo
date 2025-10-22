@@ -8,7 +8,7 @@
     .tops-slide__item {
         position: relative;
     }
-        .tops-slide__image {
+        .tops-slide__illustration {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -21,6 +21,6 @@
             bottom: 8px;
             width: 48px;
             height: 48px;
-            background-color: #0080FF;
+            background-color: var(--image-fallback);
             border-radius: 50%;
         }
