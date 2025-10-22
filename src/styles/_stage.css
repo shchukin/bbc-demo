@@ -80,20 +80,3 @@
                     .stage__icon--video {
                         border-radius: 16px;
                     }
-
-        .stage__actions {
-            margin-top: 48px;
-            margin-left: auto;
-            margin-right: auto;
-            width: fit-content;
-        }
-            .stage__begins {
-                flex-grow: 1;
-            }
-                .stage__begins .button {
-                    width: 100%;
-                }
-
-            .stage__telegram {
-                flex-shrink: 0;
-            }

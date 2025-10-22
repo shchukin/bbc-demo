@@ -272,12 +272,13 @@
     /* flying panel */
 
     const $flyingPanel = $('.flying-panel');
+    const $hidePanelAt = $('.select-course').offset().top - $(window).outerHeight();
 
     function checkPanelVisibility() {
-        if ($(window).scrollTop() > 1000) {
-            $flyingPanel.addClass('flying-panel--visible');
-        } else {
+        if ($(window).scrollTop() > $hidePanelAt) {
             $flyingPanel.removeClass('flying-panel--visible');
+        } else {
+            $flyingPanel.addClass('flying-panel--visible');
         }
     }
 

@@ -8,3 +8,13 @@
     border-radius: 40px;
     width: 720px;
 }
+    .main-actions__begins {
+        flex-grow: 1;
+    }
+        .main-actions__begins .button {
+            width: 100%;
+        }
+
+    .main-actions__telegram {
+        flex-shrink: 0;
+    }
