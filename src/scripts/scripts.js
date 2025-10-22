@@ -286,4 +286,16 @@
     $(window).on('scroll', checkPanelVisibility);
     $(document).ready(checkPanelVisibility);
 
+
+    /* Anchor */
+
+    $('.anchor').on('click', function(event) {
+        event.preventDefault(); // Останавливаем стандартный прыжок браузера
+        const target = $($(this).attr('href')); // Упрощаем: href уже строка-селектор
+        const offsetTop = target.offset().top - 80; // Минус высота хедера (настройте по необходимости)
+        $('html, body').animate({ scrollTop: offsetTop }, 700);
+    });
+
+
+
 })(jQuery);
