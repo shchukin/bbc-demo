@@ -17,13 +17,9 @@
 }
 
 .mfp-content {
-    margin-top: 48px;        /* vertical spacing */
-    margin-bottom: 48px;     /* vertical spacing */
+    margin-top: 24px;        /* vertical spacing */
+    margin-bottom: 24px;     /* vertical spacing */ /* Не меньше чем координата bottom у flying-panel */
     text-align: center;
-}
-
-.mfp-content:has(.details) {
-    margin-bottom: 160px;     /* vertical spacing */
 }
 
 /* background color */

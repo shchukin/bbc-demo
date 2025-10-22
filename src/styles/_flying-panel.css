@@ -1,6 +1,6 @@
 .flying-panel {
     position: fixed;
-    z-index: 3100;
+    z-index: 500;
     left: 0;
     right: 0;
     bottom: 24px;
