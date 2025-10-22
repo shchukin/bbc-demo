@@ -27,4 +27,6 @@
         .chapter__illustration {
             border-radius: 48px;
             vertical-align: top;
+            width: 100%;
+            height: auto;
         }
