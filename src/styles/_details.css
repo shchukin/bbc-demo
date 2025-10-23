@@ -106,14 +106,6 @@
                 max-width: 768px;
             }
 
-            .details__tag {
-                margin-top: 32px;
-                display: flex;
-                align-items: flex-start;
-                flex-wrap: wrap;
-                max-width: 768px;
-            }
-
             .details__chapters-list {
                 margin-top: 72px;
                 display: flex;
