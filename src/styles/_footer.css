@@ -61,6 +61,14 @@
                     filter: blur(3px);
                 }
 
+            .footer__social:not(.footer__social--adulthood) {
+                opacity: 50%;
+                transition: opacity var(--transition-hover);
+            }
+
+            .footer__social:not(.footer__social--adulthood):hover {
+                opacity: 100%;
+            }
 
             .footer .bubble {
                 position: absolute;
@@ -69,4 +77,6 @@
                 margin-bottom: 8px;
                 border-bottom-right-radius: 0;
             }
+
+
 
