@@ -22,6 +22,7 @@
         color: var(--50pct-gray-label);
         cursor: pointer;
         user-select: none;
+        transition: background-color var(--transition-hover);
     }
 
     .choice__icon {
