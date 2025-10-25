@@ -18,6 +18,7 @@
 
 .tag--clickable {
     cursor: pointer;
+    transition: color var(--transition-hover);
 }
 
 .tag--clickable:hover {

@@ -18,6 +18,7 @@
         white-space: nowrap;
         color: var(--50pct-gray-label);
         cursor: pointer;
+        transition: color var(--transition-hover);
     }
 
     .alt-switch__tab:hover {
