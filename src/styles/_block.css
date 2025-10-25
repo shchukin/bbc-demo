@@ -16,6 +16,11 @@
         height: 100%;
         object-fit: cover;
         vertical-align: top;
+        transition: transform 200ms ease;
+    }
+
+    .block:hover .block__illustration {
+        transform: scale(1.10062);
     }
 
     .block__body {
