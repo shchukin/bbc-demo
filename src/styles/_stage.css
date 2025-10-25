@@ -71,6 +71,11 @@
                 .stage__product--underlined {
                     text-decoration: 3px underline currentColor;
                     text-underline-offset: 10px;
+                    transition: text-decoration-color var(--transition-hover);
+                }
+
+                .stage__product--underlined:hover {
+                    text-decoration-color: transparent;
                 }
                     .stage__icon {
                         position: relative;
