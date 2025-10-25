@@ -16,34 +16,28 @@
         font-family: inherit;
         border-radius: 31px;
         text-align: left;
-        color: #CCCCCC;
+        color: var(--50pct-gray-label);
+        transition: color var(--transition-hover);
         cursor: pointer;
     }
 
     .switch__tab:hover {
-
+        color: #FFFFFF;
     }
 
     .switch__tab--current,
     .switch__tab--current:hover {
         background-color: var(--20pct-tool-tip);
-        color: #333333;
+        color: #FFFFFF;
         cursor: default;
     }
         .switch__heading {
             display: block;
             text-align: left;
-            color: var(--50pct-gray-label);
-        }
-
-        .switch__tab--current .switch__heading,
-        .switch__tab--current:hover .switch__heading {
-            color: #FFFFFF;
         }
 
         .switch__value {
             display: block;
             margin-top: 8px;
-            color: #FFFFFF;
             text-align: left;
         }
