@@ -4,10 +4,18 @@
     background-color: var(--12pct-block);
     border-radius: 40px 40px 40px 0;
 }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        20% { transform: rotate(360deg); } /* 1с из 5с */
+        100% { transform: rotate(360deg); } /* пауза */
+    }
+
     .comment__avatar {
         vertical-align: top;
         background-color: var(--image-fallback);
         border-radius: 50%;
+        animation: spin 5s infinite cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
     .comment::after {
