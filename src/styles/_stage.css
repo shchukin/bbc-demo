@@ -68,13 +68,13 @@
                     margin-right: 10px;
                 }
 
-                .stage__product--underlined {
+                .stage__product--link {
                     text-decoration: 3px underline currentColor;
                     text-underline-offset: 10px;
                     transition: text-decoration-color var(--transition-hover);
                 }
 
-                .stage__product--underlined:hover {
+                .stage__product--link:hover {
                     text-decoration-color: transparent;
                 }
                     .stage__icon {
