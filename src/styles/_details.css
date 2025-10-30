@@ -117,7 +117,7 @@
         position: fixed;
         left: 50%;
         margin-left: calc(560px + 16px);
-        top: 48px;
+        top: 24px;
     }
         .details__close .button {
             border-radius: 16px;

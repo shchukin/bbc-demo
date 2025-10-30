@@ -1,8 +1,8 @@
-.stage {
+.hero {
     position: relative;
     padding-top: 244px;
 }
-    .stage__logo {
+    .hero__logo {
         position: absolute;
         left: 48px;
         top: 70px;
@@ -11,7 +11,7 @@
         color: #FFFFFF;
     }
 
-    .stage__trailer-handler {
+    .hero__trailer-handler {
         position: absolute;
         right: 48px;
         top: 48px;
@@ -28,15 +28,15 @@
     }
 
     @media (min-resolution: 1.2dppx) {
-        .stage__trailer-handler {
+        .hero__trailer-handler {
             background-image: url("../images/trailer-handler/trailer-handler@2x.png");
         }
     }
 
-    .stage__contains {
+    .hero__contains {
 
     }
-        .stage__heading {
+        .hero__heading {
             margin-top: 0;
             margin-bottom: 0;
             font-size: 56px;
@@ -44,14 +44,14 @@
             text-align: center;
             color: var(--50pct-gray-label);
         }
-            .stage__line {
+            .hero__line {
 
             }
-                .stage__highlight {
+                .hero__highlight {
                     color: #FFFFFF;
                 }
 
-                .stage__product {
+                .hero__product {
                     margin-left: 4px;
                     display: inline-flex;
                     vertical-align: top;
@@ -60,28 +60,28 @@
                     color: #FFFFFF;
                 }
 
-                .stage__product--less-margin {
+                .hero__product--less-margin {
                     margin-left: 0;
                 }
 
-                .stage__product--margin-on-right {
+                .hero__product--margin-on-right {
                     margin-right: 10px;
                 }
 
-                .stage__product--link {
+                .hero__product--link {
                     text-decoration: 3px underline currentColor;
                     text-underline-offset: 10px;
                     transition: text-decoration-color var(--transition-hover);
                 }
 
-                .stage__product--link:hover {
+                .hero__product--link:hover {
                     text-decoration-color: transparent;
                 }
-                    .stage__icon {
+                    .hero__icon {
                         position: relative;
                         top: 2px;
                     }
 
-                    .stage__icon--video {
+                    .hero__icon--video {
                         border-radius: 16px;
                     }
