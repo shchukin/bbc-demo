@@ -28,7 +28,7 @@
     .choice__icon {
         position: absolute;
         left: 16px;
-        top: 16px;
+        top: 18px;
         width: 16px;
         height: 16px;
         border: 1px solid var(--50pct-gray-label);

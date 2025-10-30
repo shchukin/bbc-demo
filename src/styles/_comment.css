@@ -4,25 +4,9 @@
     background-color: var(--12pct-block);
     border-radius: 40px 40px 40px 0;
 }
-
-    @keyframes spin {
-        0% { transform: rotate(0deg); }
-        25% { transform: rotate(360deg); } /* 1с из 4с */
-        100% { transform: rotate(360deg); } /* пауза */
-    }
-
     .comment__avatar {
         vertical-align: top;
         background-color: var(--image-fallback);
-        border-radius: 50%;
-        animation: spin 4s infinite cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-
-    .comment::after {
-        content: "";
-        position: absolute;
-        inset: 8px;
-        border: 2px solid #FFFFFF;
         border-radius: 50%;
     }
 
