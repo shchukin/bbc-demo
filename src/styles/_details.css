@@ -89,7 +89,7 @@
         .details__chapters {
             margin-top: 8px;
             background-color: var(--7pct-bg-new);
-            padding: 96px 144px 96px;
+            padding: 96px 144px;
             border-radius: 64px;
         }
             .details__pre-heading {
